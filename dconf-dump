@@ -1,0 +1,161 @@
+[org/freedesktop/tracker/miner/files]
+index-recursive-directories=['&DOCUMENTS', '&MUSIC', '&PICTURES', '&VIDEOS', '/home/ulysses/data/storage']
+
+[org/gnome/control-center]
+last-panel='search'
+window-state=(980, 640, false)
+
+[org/gnome/desktop/app-folders]
+folder-children=['Utilities', 'YaST']
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[org/gnome/desktop/background]
+picture-options='zoom'
+picture-uri='/home/ulysses/.config/background'
+picture-uri-dark='/home/ulysses/.config/background'
+primary-color='#02023c3c8888'
+
+[org/gnome/desktop/input-sources]
+mru-sources=[('xkb', 'us'), ('xkb', 'it')]
+sources=[('xkb', 'us'), ('xkb', 'it')]
+xkb-options=['caps:none']
+
+[org/gnome/desktop/interface]
+color-scheme='prefer-dark'
+enable-animations=false
+font-antialiasing='grayscale'
+font-hinting='slight'
+gtk-theme='Orchis-Dark-Compact'
+icon-theme='Tela'
+
+[org/gnome/desktop/notifications]
+application-children=['firefox-esr', 'org-gnome-nautilus', 'org-pwmt-zathura', 'org-gnome-software']
+
+[org/gnome/desktop/notifications/application/firefox-esr]
+application-id='firefox-esr.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-software]
+application-id='org.gnome.Software.desktop'
+
+[org/gnome/desktop/notifications/application/org-pwmt-zathura]
+application-id='org.pwmt.zathura.desktop'
+
+[org/gnome/desktop/peripherals/keyboard]
+numlock-state=false
+
+[org/gnome/desktop/screensaver]
+lock-enabled=false
+
+[org/gnome/desktop/search-providers]
+disabled=['org.gnome.Contacts.desktop', 'org.gnome.Calculator.desktop', 'org.gnome.Characters.desktop', 'org.gnome.Software.desktop', 'org.gnome.Terminal.desktop']
+sort-order=['org.gnome.Contacts.desktop', 'org.gnome.Documents.desktop', 'org.gnome.Nautilus.desktop']
+
+[org/gnome/desktop/session]
+idle-delay=uint32 300
+
+[org/gnome/desktop/wm/keybindings]
+close=['<Super>q']
+switch-to-workspace-1=['<Super>1']
+switch-to-workspace-2=['<Super>2']
+switch-to-workspace-3=['<Super>3']
+switch-to-workspace-4=['<Super>4']
+switch-to-workspace-left=['<Super>bracketleft']
+switch-to-workspace-right=['<Super>bracketright']
+
+[org/gnome/evince]
+document-directory=@ms 'file:///home/ulysses/data/storage/phd/report/intervista-dotoli'
+
+[org/gnome/evince/default]
+window-ratio=(1.6107382550335569, 1.2446555819477434)
+
+[org/gnome/evolution-data-server]
+migrated=true
+
+[org/gnome/nautilus/icon-view]
+default-zoom-level='small-plus'
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='icon-view'
+migrated-gtk-settings=true
+search-filter-time-type='last_modified'
+search-view='list-view'
+
+[org/gnome/nautilus/window-state]
+initial-size=(890, 550)
+maximized=false
+
+[org/gnome/settings-daemon/plugins/color]
+night-light-enabled=true
+night-light-schedule-automatic=false
+night-light-schedule-from=0.0
+night-light-schedule-to=0.0
+night-light-temperature=uint32 3345
+
+[org/gnome/settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+home=['<Super>f']
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Super>Return'
+command='gnome-terminal'
+name='Launch terminal'
+
+[org/gnome/settings-daemon/plugins/power]
+sleep-inactive-ac-timeout=7200
+sleep-inactive-ac-type='nothing'
+
+[org/gnome/shell]
+favorite-apps=['firefox-esr.desktop', 'libreoffice-writer.desktop', 'org.gnome.Nautilus.desktop']
+remember-mount-password=true
+welcome-dialog-last-shown-version='43.9'
+
+[org/gnome/shell/keybindings]
+show-screenshot-ui=['<Super>i']
+switch-to-application-1=@as []
+switch-to-application-2=@as []
+switch-to-application-3=@as []
+switch-to-application-4=@as []
+
+[org/gnome/software]
+check-timestamp=int64 1706779588
+first-run=false
+update-notification-timestamp=int64 1706722276
+
+[org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+audible-bell=false
+font='Hack Nerd Font 12'
+use-system-font=false
+
+[org/gtk/gtk4/settings/file-chooser]
+show-hidden=true
+sort-directories-first=false
+
+[org/gtk/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=157
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+window-position=(345, 85)
+window-size=(1231, 902)
+
+[system/proxy]
+mode='none'

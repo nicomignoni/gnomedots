@@ -1,0 +1,13 @@
+[Default Applications]
+application/json=nvim.desktop
+text/x-tex=nvim.desktop
+text/x-lua=nvim.desktop
+text/csv=nvim.desktop
+text/x-bibtex=nvim.desktop
+
+[Added Associations]
+application/json=nvim.desktop;
+text/x-tex=nvim.desktop;
+text/x-lua=nvim.desktop;
+text/csv=nvim.desktop;
+text/x-bibtex=nvim.desktop;
