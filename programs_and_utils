@@ -31,3 +31,4 @@ pandoc
 ffmpeg 
 fzf
 openssh-server
+ncdu
