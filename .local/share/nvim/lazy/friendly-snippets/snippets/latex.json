@@ -1,0 +1,78 @@
+{
+    "real numbers": {
+        "prefix": "R",
+        "body": "\\mathbb{R}",
+        "description": "real numbers"
+    },
+    "nonnegative reals": {
+        "prefix": "Rp",
+        "body": "\\mathbb{R}_{\\geq 0}",
+        "description": "nonnegative real numbers"
+    },
+    "positive reals": {
+        "prefix": "Rpp",
+        "body": "\\mathbb{R}_{> 0}",
+        "description": "positive reals"
+    },
+    "binary numbers": {
+        "prefix": "B",
+        "body": "\\mathbb{B}",
+        "description": "the set {0,1}"
+    },
+    "natural numbers": {
+        "prefix": "N",
+        "body": "\\mathbb{N}",
+        "description": "the set of natural numbers"
+    },
+    "positive natural numbers": {
+        "prefix": "Np",
+        "body": "\\mathbb{N}_{> 10}",
+        "description": "positive natural numbers"
+    },
+    "mathcal": {
+        "prefix": "mc",
+        "body": "\\mathcal{$1}$0",
+        "description": "mathcal"
+    },
+    "mathbf": {
+        "prefix": "mb",
+        "body": "\\mathbf{$1}$0",
+        "description": "mathbf"
+    },
+    "subset": {
+        "prefix": "cc",
+        "body": "\\subset",
+        "description": "subset"
+    },
+    "subseteq": {
+        "prefix": "ccq",
+        "body": "\\subseteq",
+        "description": "subseteq"
+    },
+    "tilde": {
+        "prefix": "~",
+        "body": "\\tilde{$1}$0",
+        "description": "tilde"
+    },
+    "overline": {
+        "prefix": "-",
+        "body": "\\overline{$1}$0",
+        "description": "overline"
+    },
+    "underline": {
+        "prefix": "_",
+        "body": "\\underline{$1}$0",
+        "description": "underline"
+    },
+    "hat": {
+        "prefix": "^",
+        "body": "\\hat{$1}$0",
+        "description": "hat"
+    },
+    "check": {
+        "prefix": "v",
+        "body": "\\check{$1}$0",
+        "description": "check"
+    }
+
+}
