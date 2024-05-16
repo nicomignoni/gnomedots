@@ -74,5 +74,9 @@
         "body": "\\check{$1}$0",
         "description": "check"
     }
-
+    "transpose": {
+        "prefix": "T",
+        "body": "^\top",
+        "description": "transpose"
+    }
 }
