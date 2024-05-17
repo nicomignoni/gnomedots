@@ -39,6 +39,11 @@
         "body": "\\mathbf{$1}$0",
         "description": "mathbf"
     },
+    "boldsymbol": {
+        "prefix": "bs",
+        "body": "\\boldsymbol{$1}$0",
+        "description": "boldsymbol"
+    },
     "subset": {
         "prefix": "cc",
         "body": "\\subset",
