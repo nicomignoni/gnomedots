@@ -76,7 +76,12 @@
     }
     "transpose": {
         "prefix": "T",
-        "body": "^\top",
+        "body": "^\\top",
         "description": "transpose"
+    }
+    "equation": {
+        "prefix": "eq",
+        "body": "\\begin{equation} \n \\label{eq:$1} \n $0 \\end{equation}",
+        "description": "equation boilerplate"
     }
 }
