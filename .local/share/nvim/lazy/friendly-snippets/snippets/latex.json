@@ -78,12 +78,17 @@
         "prefix": "v",
         "body": "\\check{$1}$0",
         "description": "check"
-    }
+    },
     "transpose": {
         "prefix": "T",
         "body": "^\\top",
         "description": "transpose"
-    }
+    },
+    "eqref": {
+        "prefix": "er",
+        "body": "\\eqref{eq:$1}",
+        "description": "eqref"
+    },
     "equation": {
         "prefix": "eq",
         "body": "\\begin{equation} \n \\label{eq:$1} \n $0 \\end{equation}",
