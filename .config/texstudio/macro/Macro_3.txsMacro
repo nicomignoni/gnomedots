@@ -1,0 +1,14 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "",
+    "name": "mathcal",
+    "shortcut": "",
+    "tag": [
+        "\\mathcal{%<%>}"
+    ],
+    "trigger": "mmc"
+}

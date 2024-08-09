@@ -1,0 +1,17 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "",
+    "name": "equation",
+    "shortcut": "",
+    "tag": [
+        "\\begin{equation}",
+        "\t\\label{eq:%<%>}",
+        "\t",
+        "\\end{equation}"
+    ],
+    "trigger": "eeq"
+}

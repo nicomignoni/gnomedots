@@ -1,0 +1,14 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "",
+    "name": "reals",
+    "shortcut": "",
+    "tag": [
+        "\\mathbb{R}"
+    ],
+    "trigger": "RRR"
+}

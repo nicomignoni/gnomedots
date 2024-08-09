@@ -1,0 +1,14 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "",
+    "name": "mathsf",
+    "shortcut": "",
+    "tag": [
+        "\\mathsf{%<%>}"
+    ],
+    "trigger": "msf"
+}
