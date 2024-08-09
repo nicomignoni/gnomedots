@@ -20,15 +20,14 @@ htop
 rename
 tldr
 lm-sensors
-pass
 texlive-full
+texstudio
 qbittorrent
 gnucash
 cura
 neofetch 
-jabref
 pandoc
 ffmpeg 
 fzf
 openssh-server
-ncdu
+gdu
