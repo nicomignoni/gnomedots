@@ -1,6 +1,6 @@
 [Default Applications]
 application/json=nvim.desktop
-text/x-tex=nvim.desktop
+text/x-tex=texstudio.desktop
 text/x-lua=nvim.desktop
 text/csv=nvim.desktop
 text/x-bibtex=nvim.desktop
@@ -15,7 +15,7 @@ application/vnd.apple.keynote=nvim.desktop
 
 [Added Associations]
 application/json=nvim.desktop;
-text/x-tex=nvim.desktop;
+text/x-tex=nvim.desktop;texstudio.desktop;
 text/x-lua=nvim.desktop;
 text/csv=nvim.desktop;
 text/x-bibtex=nvim.desktop;

@@ -5,10 +5,10 @@
     ],
     "formatVersion": 1,
     "menu": "",
-    "name": "mathcal",
+    "name": "mathbf",
     "shortcut": "",
     "tag": [
-        "\\mathcal{%<%>}"
+        "\\mathbf{%<%>}"
     ],
-    "trigger": "mmc"
+    "trigger": "mmb"
 }

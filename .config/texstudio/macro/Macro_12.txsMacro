@@ -5,10 +5,10 @@
     ],
     "formatVersion": 1,
     "menu": "",
-    "name": "binary",
+    "name": "naturals",
     "shortcut": "",
     "tag": [
-        "\\mathbb{B}"
+        "\\mathbb{N}"
     ],
-    "trigger": "BBB"
+    "trigger": "NNN"
 }

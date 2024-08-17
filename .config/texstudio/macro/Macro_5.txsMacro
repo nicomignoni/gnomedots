@@ -5,10 +5,10 @@
     ],
     "formatVersion": 1,
     "menu": "",
-    "name": "in",
+    "name": "mathsf",
     "shortcut": "",
     "tag": [
-        "\\in"
+        "\\mathsf{%<%>}"
     ],
-    "trigger": "iin"
+    "trigger": "msf"
 }

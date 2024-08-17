@@ -5,13 +5,10 @@
     ],
     "formatVersion": 1,
     "menu": "",
-    "name": "equation",
+    "name": "eqref",
     "shortcut": "",
     "tag": [
-        "\\begin{equation}",
-        "\t\\label{eq:%<%>}",
-        "\t",
-        "\\end{equation}"
+        "\\eqref{eq:%<%>}"
     ],
-    "trigger": "eeq"
+    "trigger": "eer"
 }
