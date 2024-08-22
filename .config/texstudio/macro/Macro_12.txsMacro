@@ -5,10 +5,15 @@
     ],
     "formatVersion": 1,
     "menu": "",
-    "name": "naturals",
+    "name": "figure",
     "shortcut": "",
     "tag": [
-        "\\mathbb{N}"
+        "\\begin{figure}",
+        "\t\\centering",
+        "\t\\includegraphics[width=0.45\\textwidth]{%<%>}",
+        "\t\\caption{%<%>}",
+        "\t\\label{%<%>}",
+        "\\end{figure}"
     ],
-    "trigger": "NNN"
+    "trigger": "ffig"
 }

@@ -5,15 +5,13 @@
     ],
     "formatVersion": 1,
     "menu": "",
-    "name": "figure",
+    "name": "equation",
     "shortcut": "",
     "tag": [
-        "\\begin{figure}",
-        "\t\\centering",
-        "\t\\includegraphics[width=0.45\\textwidth]{%<%>}",
-        "\t\\caption{%<%>}",
-        "\t\\label{%<%>}",
-        "\\end{figure}"
+        "\\begin{equation}",
+        "\t\\label{eq:%<%>}",
+        "\t",
+        "\\end{equation}"
     ],
-    "trigger": "ffig"
+    "trigger": "eeq"
 }

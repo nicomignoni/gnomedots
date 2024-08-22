@@ -5,10 +5,10 @@
     ],
     "formatVersion": 1,
     "menu": "",
-    "name": "subseteq",
+    "name": "bmatrix",
     "shortcut": "",
     "tag": [
-        "\\subseteq"
+        "\\begin{bmatrix} %<%> \\end{bmatrix}"
     ],
-    "trigger": "ccq"
+    "trigger": "bmat"
 }

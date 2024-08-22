@@ -5,10 +5,10 @@
     ],
     "formatVersion": 1,
     "menu": "",
-    "name": "times",
+    "name": "naturals",
     "shortcut": "",
     "tag": [
-        "\\times"
+        "\\mathbb{N}"
     ],
-    "trigger": "xx"
+    "trigger": "NNN"
 }

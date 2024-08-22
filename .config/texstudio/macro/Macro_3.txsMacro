@@ -5,10 +5,10 @@
     ],
     "formatVersion": 1,
     "menu": "",
-    "name": "mathbf",
+    "name": "boldsymbol",
     "shortcut": "",
     "tag": [
-        "\\mathbf{%<%>}"
+        "\\boldsymbol{%<%>}"
     ],
-    "trigger": "mmb"
+    "trigger": "bbs"
 }

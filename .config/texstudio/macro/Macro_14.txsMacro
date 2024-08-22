@@ -5,10 +5,10 @@
     ],
     "formatVersion": 1,
     "menu": "",
-    "name": "subseteq",
+    "name": "times",
     "shortcut": "",
     "tag": [
-        "\\subseteq"
+        "\\times"
     ],
-    "trigger": "ccq"
+    "trigger": "xx"
 }

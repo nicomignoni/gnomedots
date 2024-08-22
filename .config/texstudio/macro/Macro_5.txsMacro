@@ -5,10 +5,10 @@
     ],
     "formatVersion": 1,
     "menu": "",
-    "name": "mathsf",
+    "name": "mathcal",
     "shortcut": "",
     "tag": [
-        "\\mathsf{%<%>}"
+        "\\mathcal{%<%>}"
     ],
-    "trigger": "msf"
+    "trigger": "mmc"
 }

@@ -5,10 +5,10 @@
     ],
     "formatVersion": 1,
     "menu": "",
-    "name": "subset",
+    "name": "in",
     "shortcut": "",
     "tag": [
-        "\\subset"
+        "\\in"
     ],
-    "trigger": "ccc"
+    "trigger": "iin"
 }

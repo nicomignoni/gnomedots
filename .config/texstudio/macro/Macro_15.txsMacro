@@ -5,10 +5,10 @@
     ],
     "formatVersion": 1,
     "menu": "",
-    "name": "subseteq",
+    "name": "transpose",
     "shortcut": "",
     "tag": [
-        "\\subseteq"
+        "^\\top"
     ],
-    "trigger": "ccq"
+    "trigger": "TTT"
 }
