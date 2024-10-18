@@ -1,5 +1,5 @@
 [Default Applications]
-application/json=nvim.desktop
+application/json=PhoenixCode.desktop
 text/x-tex=texstudio.desktop
 text/x-lua=nvim.desktop
 text/csv=nvim.desktop
@@ -12,6 +12,28 @@ x-scheme-handler/https=google-chrome.desktop
 x-scheme-handler/about=google-chrome.desktop
 x-scheme-handler/unknown=google-chrome.desktop
 application/vnd.apple.keynote=nvim.desktop
+text/x-objcsrc=nvim.desktop
+text/markdown=nvim.desktop
+application/atom+xml=PhoenixCode.desktop
+application/x-coldfusion=PhoenixCode.desktop
+text/x-clojure=PhoenixCode.desktop
+text/coffeescript=PhoenixCode.desktop
+text/css=PhoenixCode.desktop
+text/x-diff=PhoenixCode.desktop
+text/jsx=PhoenixCode.desktop
+application/mathml+xml=PhoenixCode.desktop
+application/rdf+xml=PhoenixCode.desktop
+application/rss+xml=PhoenixCode.desktop
+application/sql=PhoenixCode.desktop
+image/svg+xml=org.inkscape.Inkscape.desktop
+application/xml=PhoenixCode.desktop
+application/vnd.mozilla.xul+xml=PhoenixCode.desktop
+application/x-yaml=PhoenixCode.desktop
+text/javascript=PhoenixCode.desktop
+application/javascript=PhoenixCode.desktop
+text/mjs=PhoenixCode.desktop
+application/mjs=PhoenixCode.desktop
+text/cjs=PhoenixCode.desktop
 
 [Added Associations]
 application/json=nvim.desktop;
@@ -23,3 +45,6 @@ text/plain=nvim.desktop;
 text/x-python=nvim.desktop;
 application/x-shellscript=nvim.desktop;
 application/vnd.apple.keynote=nvim.desktop;
+text/x-objcsrc=nvim.desktop;
+text/markdown=nvim.desktop;
+image/svg+xml=org.inkscape.Inkscape.desktop;

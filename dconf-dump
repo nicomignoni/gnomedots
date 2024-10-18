@@ -1,8 +1,1608 @@
+[com/github/wwmm/easyeffects]
+bypass=false
+last-used-input-preset='Presets'
+last-used-output-preset='Perfect EQ'
+window-fullscreen=false
+window-height=429
+window-maximized=false
+window-width=684
+
+[com/github/wwmm/easyeffects/streaminputs]
+input-device='alsa_input.usb-SHENZHEN_AONI_ELECTRONIC_CO.__LTD_NexiGo_N930AF_FHD_Webcam_20201217010-02.mono-fallback'
+
+[com/github/wwmm/easyeffects/streamoutputs]
+blocklist=@as []
+output-device='alsa_output.pci-0000_00_1f.3.analog-stereo'
+plugins=['equalizer#0']
+
+[com/github/wwmm/easyeffects/streamoutputs/autogain/0]
+bypass=false
+output-gain=1.5
+reference='Geometric Mean (MSI)'
+target=-12.0
+
+[com/github/wwmm/easyeffects/streamoutputs/bassenhancer/0]
+amount=0.0
+blend=3.0
+bypass=false
+floor=20.0
+floor-active=true
+harmonics=7.9000000000000021
+output-gain=0.5
+scope=100.0
+
+[com/github/wwmm/easyeffects/streamoutputs/bassloudness/0]
+link=-9.0
+loudness=-3.0
+output=-9.5
+
+[com/github/wwmm/easyeffects/streamoutputs/bassloudness/1]
+link=-9.0
+loudness=-2.2000000000000002
+output=-13.0
+
+[com/github/wwmm/easyeffects/streamoutputs/compressor/0]
+attack=130.0
+boost-threshold=-60.0
+bypass=false
+knee=-23.899999999999999
+mode='Upward'
+ratio=5.0
+release=600.0
+sidechain-input-device='alsa_input.usb-SHENZHEN_AONI_ELECTRONIC_CO.__LTD_NexiGo_N930AF_FHD_Webcam_20201217010-02.mono-fallback'
+sidechain-reactivity=10.0
+threshold=-10.0
+
+[com/github/wwmm/easyeffects/streamoutputs/convolver/0]
+input-gain=-2.0
+kernel-path='<PRESETS_DIRECTORY>/irs/Razor Surround ((48k Z-Edition)) 2.Stereo +20 bass.irs'
+
+[com/github/wwmm/easyeffects/streamoutputs/crossfeed/0]
+bypass=false
+fcut=700
+feed=4.5
+
+[com/github/wwmm/easyeffects/streamoutputs/crystalizer/0]
+intensity-band0=4.0
+intensity-band1=1.0
+intensity-band10=-6.0
+intensity-band11=-8.0
+intensity-band12=-13.0
+intensity-band2=-1.0
+intensity-band3=-2.0
+intensity-band4=-1.0
+intensity-band5=-2.0
+intensity-band7=-8.0
+intensity-band8=-7.0
+intensity-band9=-5.0
+
+[com/github/wwmm/easyeffects/streamoutputs/delay/0]
+bypass=true
+time-r=20.0
+
+[com/github/wwmm/easyeffects/streamoutputs/equalizer/0]
+input-gain=-2.0
+num-bands=10
+output-gain=0.0
+
+[com/github/wwmm/easyeffects/streamoutputs/equalizer/0/leftchannel]
+band0-frequency=32.0
+band0-gain=4.0
+band0-mode='RLC (BT)'
+band0-q=1.5047602375372451
+band0-type='Bell'
+band1-frequency=64.0
+band1-gain=2.0
+band1-mode='RLC (BT)'
+band1-q=1.5047602375372453
+band1-type='Bell'
+band10-frequency=225.88999999999999
+band10-gain=4.0
+band10-q=4.3600000000000003
+band10-type='Off'
+band11-frequency=284.38
+band11-gain=4.0
+band11-q=4.3600000000000003
+band11-type='Off'
+band12-frequency=358.01999999999998
+band12-gain=4.0
+band12-q=4.3600000000000003
+band12-type='Off'
+band13-frequency=450.72000000000003
+band13-gain=0.0
+band13-q=4.3600000000000003
+band13-type='Off'
+band14-frequency=567.41999999999996
+band14-gain=0.0
+band14-q=4.3600000000000003
+band14-type='Off'
+band15-frequency=714.34000000000003
+band15-gain=-1.0
+band15-q=4.3600000000000003
+band15-type='Off'
+band16-frequency=899.28999999999996
+band16-gain=-2.0
+band16-q=4.3600000000000003
+band16-type='Off'
+band17-frequency=1132.1500000000001
+band17-gain=-3.6000000000000001
+band17-q=4.3600000000000003
+band17-type='Off'
+band18-frequency=1425.29
+band18-gain=-2.5
+band18-q=4.3600000000000003
+band18-type='Off'
+band19-frequency=1794.3299999999999
+band19-gain=-1.5
+band19-q=4.3600000000000003
+band19-type='Off'
+band2-frequency=125.0
+band2-gain=1.0
+band2-q=1.5047602375372451
+band2-type='Bell'
+band20-frequency=2258.9299999999998
+band20-q=4.3600000000000003
+band20-type='Off'
+band21-frequency=2843.8200000000002
+band21-q=4.3600000000000003
+band21-type='Off'
+band22-frequency=3580.1599999999999
+band22-q=4.3600000000000003
+band22-type='Off'
+band23-frequency=4507.1499999999996
+band23-q=4.3600000000000003
+band23-type='Off'
+band24-frequency=5674.1599999999999
+band24-q=4.3600000000000003
+band24-type='Off'
+band25-frequency=7143.3500000000004
+band25-q=4.3600000000000003
+band25-type='Off'
+band26-frequency=8992.9400000000005
+band26-q=4.3600000000000003
+band26-type='Off'
+band27-frequency=11321.450000000001
+band27-q=4.3600000000000003
+band27-type='Off'
+band28-frequency=14252.860000000001
+band28-q=4.3600000000000003
+band28-type='Off'
+band29-frequency=17943.279999999999
+band29-q=4.3600000000000003
+band29-type='Off'
+band3-frequency=250.0
+band3-gain=0.0
+band3-q=1.5047602375372451
+band3-type='Bell'
+band30-frequency=14552.238193376936
+band30-q=4.6504494641272753
+band30-type='Off'
+band31-frequency=18058.421877614823
+band31-q=4.6504494641272762
+band31-type='Off'
+band4-frequency=500.0
+band4-gain=-1.0
+band4-q=1.5047602375372453
+band4-type='Bell'
+band5-frequency=1000.0
+band5-gain=-2.0
+band5-q=1.5047602375372451
+band5-type='Bell'
+band6-frequency=2000.0
+band6-gain=0.0
+band6-q=1.5047602375372449
+band6-type='Bell'
+band7-frequency=4000.0
+band7-gain=2.0
+band7-q=1.5047602375372449
+band7-type='Bell'
+band8-frequency=8000.0
+band8-gain=3.0
+band8-q=1.5047602375372453
+band8-type='Bell'
+band9-frequency=16000.0
+band9-gain=3.0
+band9-q=1.5047602375372451
+band9-type='Bell'
+
+[com/github/wwmm/easyeffects/streamoutputs/equalizer/0/rightchannel]
+band0-frequency=32.0
+band0-gain=4.0
+band0-mode='RLC (BT)'
+band0-mute=false
+band0-q=1.5047602375372451
+band0-slope='x1'
+band0-solo=false
+band0-type='Bell'
+band1-frequency=64.0
+band1-gain=2.0
+band1-mode='RLC (BT)'
+band1-mute=false
+band1-q=1.5047602375372453
+band1-slope='x1'
+band1-solo=false
+band1-type='Bell'
+band10-frequency=225.88999999999999
+band10-gain=4.0
+band10-mode='RLC (BT)'
+band10-mute=false
+band10-q=4.3600000000000003
+band10-slope='x1'
+band10-solo=false
+band10-type='Off'
+band11-frequency=284.38
+band11-gain=4.0
+band11-mode='RLC (BT)'
+band11-mute=false
+band11-q=4.3600000000000003
+band11-slope='x1'
+band11-solo=false
+band11-type='Off'
+band12-frequency=358.01999999999998
+band12-gain=4.0
+band12-mode='RLC (BT)'
+band12-mute=false
+band12-q=4.3600000000000003
+band12-slope='x1'
+band12-solo=false
+band12-type='Off'
+band13-frequency=450.72000000000003
+band13-gain=0.0
+band13-mode='RLC (BT)'
+band13-mute=false
+band13-q=4.3600000000000003
+band13-slope='x1'
+band13-solo=false
+band13-type='Off'
+band14-frequency=567.41999999999996
+band14-gain=0.0
+band14-mode='RLC (BT)'
+band14-mute=false
+band14-q=4.3600000000000003
+band14-slope='x1'
+band14-solo=false
+band14-type='Off'
+band15-frequency=714.34000000000003
+band15-gain=-1.0
+band15-mode='RLC (BT)'
+band15-mute=false
+band15-q=4.3600000000000003
+band15-slope='x1'
+band15-solo=false
+band15-type='Off'
+band16-frequency=899.28999999999996
+band16-gain=-2.0
+band16-mode='RLC (BT)'
+band16-mute=false
+band16-q=4.3600000000000003
+band16-slope='x1'
+band16-solo=false
+band16-type='Off'
+band17-frequency=1132.1500000000001
+band17-gain=-3.6000000000000001
+band17-mode='RLC (BT)'
+band17-mute=false
+band17-q=4.3600000000000003
+band17-slope='x1'
+band17-solo=false
+band17-type='Off'
+band18-frequency=1425.29
+band18-gain=-2.5
+band18-mode='RLC (BT)'
+band18-mute=false
+band18-q=4.3600000000000003
+band18-slope='x1'
+band18-solo=false
+band18-type='Off'
+band19-frequency=1794.3299999999999
+band19-gain=-1.5
+band19-mode='RLC (BT)'
+band19-mute=false
+band19-q=4.3600000000000003
+band19-slope='x1'
+band19-solo=false
+band19-type='Off'
+band2-frequency=125.0
+band2-gain=1.0
+band2-mode='RLC (BT)'
+band2-mute=false
+band2-q=1.5047602375372451
+band2-slope='x1'
+band2-solo=false
+band2-type='Bell'
+band20-frequency=2258.9299999999998
+band20-gain=0.0
+band20-mode='RLC (BT)'
+band20-mute=false
+band20-q=4.3600000000000003
+band20-slope='x1'
+band20-solo=false
+band20-type='Off'
+band21-frequency=2843.8200000000002
+band21-gain=0.0
+band21-mode='RLC (BT)'
+band21-mute=false
+band21-q=4.3600000000000003
+band21-slope='x1'
+band21-solo=false
+band21-type='Off'
+band22-frequency=3580.1599999999999
+band22-gain=0.0
+band22-mode='RLC (BT)'
+band22-mute=false
+band22-q=4.3600000000000003
+band22-slope='x1'
+band22-solo=false
+band22-type='Off'
+band23-frequency=4507.1499999999996
+band23-gain=0.0
+band23-mode='RLC (BT)'
+band23-mute=false
+band23-q=4.3600000000000003
+band23-slope='x1'
+band23-solo=false
+band23-type='Off'
+band24-frequency=5674.1599999999999
+band24-gain=0.0
+band24-mode='RLC (BT)'
+band24-mute=false
+band24-q=4.3600000000000003
+band24-slope='x1'
+band24-solo=false
+band24-type='Off'
+band25-frequency=7143.3500000000004
+band25-gain=0.0
+band25-mode='RLC (BT)'
+band25-mute=false
+band25-q=4.3600000000000003
+band25-slope='x1'
+band25-solo=false
+band25-type='Off'
+band26-frequency=8992.9400000000005
+band26-gain=0.0
+band26-mode='RLC (BT)'
+band26-mute=false
+band26-q=4.3600000000000003
+band26-slope='x1'
+band26-solo=false
+band26-type='Off'
+band27-frequency=11321.450000000001
+band27-gain=0.0
+band27-mode='RLC (BT)'
+band27-mute=false
+band27-q=4.3600000000000003
+band27-slope='x1'
+band27-solo=false
+band27-type='Off'
+band28-frequency=14252.860000000001
+band28-gain=0.0
+band28-mode='RLC (BT)'
+band28-mute=false
+band28-q=4.3600000000000003
+band28-slope='x1'
+band28-solo=false
+band28-type='Off'
+band29-frequency=17943.279999999999
+band29-gain=0.0
+band29-mode='RLC (BT)'
+band29-mute=false
+band29-q=4.3600000000000003
+band29-slope='x1'
+band29-solo=false
+band29-type='Off'
+band3-frequency=250.0
+band3-gain=0.0
+band3-mode='RLC (BT)'
+band3-mute=false
+band3-q=1.5047602375372451
+band3-slope='x1'
+band3-solo=false
+band3-type='Bell'
+band30-frequency=14552.238193376936
+band30-gain=0.0
+band30-mode='RLC (BT)'
+band30-mute=false
+band30-q=4.6504494641272753
+band30-slope='x1'
+band30-solo=false
+band30-type='Off'
+band31-frequency=18058.421877614823
+band31-gain=0.0
+band31-mode='RLC (BT)'
+band31-mute=false
+band31-q=4.6504494641272762
+band31-slope='x1'
+band31-solo=false
+band31-type='Off'
+band4-frequency=500.0
+band4-gain=-1.0
+band4-mode='RLC (BT)'
+band4-mute=false
+band4-q=1.5047602375372453
+band4-slope='x1'
+band4-solo=false
+band4-type='Bell'
+band5-frequency=1000.0
+band5-gain=-2.0
+band5-mode='RLC (BT)'
+band5-mute=false
+band5-q=1.5047602375372451
+band5-slope='x1'
+band5-solo=false
+band5-type='Bell'
+band6-frequency=2000.0
+band6-gain=0.0
+band6-mode='RLC (BT)'
+band6-mute=false
+band6-q=1.5047602375372449
+band6-slope='x1'
+band6-solo=false
+band6-type='Bell'
+band7-frequency=4000.0
+band7-gain=2.0
+band7-mode='RLC (BT)'
+band7-mute=false
+band7-q=1.5047602375372449
+band7-slope='x1'
+band7-solo=false
+band7-type='Bell'
+band8-frequency=8000.0
+band8-gain=3.0
+band8-mode='RLC (BT)'
+band8-mute=false
+band8-q=1.5047602375372453
+band8-slope='x1'
+band8-solo=false
+band8-type='Bell'
+band9-frequency=16000.0
+band9-gain=3.0
+band9-mode='RLC (BT)'
+band9-mute=false
+band9-q=1.5047602375372451
+band9-slope='x1'
+band9-solo=false
+band9-type='Bell'
+
+[com/github/wwmm/easyeffects/streamoutputs/equalizer/1]
+bypass=true
+num-bands=1
+split-channels=true
+
+[com/github/wwmm/easyeffects/streamoutputs/equalizer/1/leftchannel]
+band0-frequency=932.0
+band0-gain=6.0
+band0-mode='LRX (BT)'
+band0-q=0.0
+band0-slope='x4'
+band0-type='Bell'
+band1-frequency=250.0
+band1-gain=3.0
+band1-mode='APO (DR)'
+band1-q=1.5
+band1-type='Off'
+band10-type='Off'
+band11-type='Off'
+band12-type='Off'
+band13-type='Off'
+band14-type='Off'
+band15-type='Off'
+band16-type='Off'
+band17-type='Off'
+band18-type='Off'
+band19-type='Off'
+band2-frequency=400.0
+band2-gain=3.0
+band2-mode='APO (DR)'
+band2-q=1.5
+band2-type='Off'
+band20-type='Off'
+band21-type='Off'
+band22-type='Off'
+band23-type='Off'
+band24-type='Off'
+band25-type='Off'
+band26-type='Off'
+band27-type='Off'
+band28-type='Off'
+band29-type='Off'
+band3-frequency=650.0
+band3-gain=-1.0
+band3-mode='APO (DR)'
+band3-q=1.5
+band3-slope='x2'
+band3-type='Off'
+band30-type='Off'
+band31-type='Off'
+band4-frequency=1000.0
+band4-gain=-7.0
+band4-mode='APO (DR)'
+band4-q=2.0
+band4-slope='x2'
+band4-type='Off'
+band5-frequency=1600.0
+band5-gain=-3.0
+band5-mode='APO (DR)'
+band5-q=2.0
+band5-slope='x2'
+band5-type='Off'
+band6-frequency=2600.0
+band6-gain=3.0
+band6-mode='APO (DR)'
+band6-q=2.0
+band6-slope='x3'
+band6-type='Off'
+band7-frequency=5500.0
+band7-gain=4.0
+band7-mode='APO (DR)'
+band7-q=2.5
+band7-slope='x3'
+band7-type='Off'
+band8-frequency=10000.0
+band8-gain=2.0
+band8-mode='APO (DR)'
+band8-q=2.5
+band8-slope='x4'
+band8-type='Off'
+band9-frequency=16000.0
+band9-gain=1.0
+band9-mode='APO (DR)'
+band9-q=2.5
+band9-slope='x4'
+band9-type='Off'
+
+[com/github/wwmm/easyeffects/streamoutputs/equalizer/1/rightchannel]
+band0-frequency=7458.0
+band0-gain=6.0
+band0-mode='LRX (BT)'
+band0-mute=false
+band0-q=0.0
+band0-slope='x4'
+band0-solo=false
+band0-type='Bell'
+band1-frequency=200.0
+band1-gain=3.0
+band1-mode='APO (DR)'
+band1-mute=false
+band1-q=1.5
+band1-slope='x1'
+band1-solo=false
+band1-type='Off'
+band10-frequency=194.06
+band10-gain=0.0
+band10-mode='RLC (BT)'
+band10-mute=false
+band10-q=4.3600000000000003
+band10-slope='x1'
+band10-solo=false
+band10-type='Off'
+band11-frequency=240.81
+band11-gain=0.0
+band11-mode='RLC (BT)'
+band11-mute=false
+band11-q=4.3600000000000003
+band11-slope='x1'
+band11-solo=false
+band11-type='Off'
+band12-frequency=298.834
+band12-gain=0.0
+band12-mode='RLC (BT)'
+band12-mute=false
+band12-q=4.3600000000000003
+band12-slope='x1'
+band12-solo=false
+band12-type='Off'
+band13-frequency=370.834
+band13-gain=0.0
+band13-mode='RLC (BT)'
+band13-mute=false
+band13-q=4.3600000000000003
+band13-slope='x1'
+band13-solo=false
+band13-type='Off'
+band14-frequency=460.18200000000002
+band14-gain=0.0
+band14-mode='RLC (BT)'
+band14-mute=false
+band14-q=4.3600000000000003
+band14-slope='x1'
+band14-solo=false
+band14-type='Off'
+band15-frequency=571.05700000000002
+band15-gain=0.0
+band15-mode='RLC (BT)'
+band15-mute=false
+band15-q=4.3600000000000003
+band15-slope='x1'
+band15-solo=false
+band15-type='Off'
+band16-frequency=708.64700000000005
+band16-gain=0.0
+band16-mode='RLC (BT)'
+band16-mute=false
+band16-q=4.3600000000000003
+band16-slope='x1'
+band16-solo=false
+band16-type='Off'
+band17-frequency=879.38699999999994
+band17-gain=0.0
+band17-mode='RLC (BT)'
+band17-mute=false
+band17-q=4.3600000000000003
+band17-slope='x1'
+band17-solo=false
+band17-type='Off'
+band18-frequency=1091.26
+band18-gain=0.0
+band18-mode='RLC (BT)'
+band18-mute=false
+band18-q=4.3600000000000003
+band18-slope='x1'
+band18-solo=false
+band18-type='Off'
+band19-frequency=1354.1900000000001
+band19-gain=0.0
+band19-mode='RLC (BT)'
+band19-mute=false
+band19-q=4.3600000000000003
+band19-slope='x1'
+band19-solo=false
+band19-type='Off'
+band2-frequency=320.0
+band2-gain=3.0
+band2-mode='APO (DR)'
+band2-mute=false
+band2-q=1.5
+band2-slope='x1'
+band2-solo=false
+band2-type='Off'
+band20-frequency=1680.47
+band20-gain=0.0
+band20-mode='RLC (BT)'
+band20-mute=false
+band20-q=4.3600000000000003
+band20-slope='x1'
+band20-solo=false
+band20-type='Off'
+band21-frequency=2085.3499999999999
+band21-gain=0.0
+band21-mode='RLC (BT)'
+band21-mute=false
+band21-q=4.3600000000000003
+band21-slope='x1'
+band21-solo=false
+band21-type='Off'
+band22-frequency=2587.79
+band22-gain=0.0
+band22-mode='RLC (BT)'
+band22-mute=false
+band22-q=4.3600000000000003
+band22-slope='x1'
+band22-solo=false
+band22-type='Off'
+band23-frequency=3211.29
+band23-gain=0.0
+band23-mode='RLC (BT)'
+band23-mute=false
+band23-q=4.3600000000000003
+band23-slope='x1'
+band23-solo=false
+band23-type='Off'
+band24-frequency=3985.0100000000002
+band24-gain=0.0
+band24-mode='RLC (BT)'
+band24-mute=false
+band24-q=4.3600000000000003
+band24-slope='x1'
+band24-solo=false
+band24-type='Off'
+band25-frequency=4945.1499999999996
+band25-gain=0.0
+band25-mode='RLC (BT)'
+band25-mute=false
+band25-q=4.3600000000000003
+band25-slope='x1'
+band25-solo=false
+band25-type='Off'
+band26-frequency=6136.6300000000001
+band26-gain=0.0
+band26-mode='RLC (BT)'
+band26-mute=false
+band26-q=4.3600000000000003
+band26-slope='x1'
+band26-solo=false
+band26-type='Off'
+band27-frequency=7615.1700000000001
+band27-gain=0.0
+band27-mode='RLC (BT)'
+band27-mute=false
+band27-q=4.3600000000000003
+band27-slope='x1'
+band27-solo=false
+band27-type='Off'
+band28-frequency=9449.9599999999991
+band28-gain=0.0
+band28-mode='RLC (BT)'
+band28-mute=false
+band28-q=4.3600000000000003
+band28-slope='x1'
+band28-solo=false
+band28-type='Off'
+band29-frequency=11726.799999999999
+band29-gain=0.0
+band29-mode='RLC (BT)'
+band29-mute=false
+band29-q=4.3600000000000003
+band29-slope='x1'
+band29-solo=false
+band29-type='Off'
+band3-frequency=520.0
+band3-gain=-1.0
+band3-mode='APO (DR)'
+band3-mute=false
+band3-q=1.5
+band3-slope='x2'
+band3-solo=false
+band3-type='Off'
+band30-frequency=14552.200000000001
+band30-gain=0.0
+band30-mode='RLC (BT)'
+band30-mute=false
+band30-q=4.3600000000000003
+band30-slope='x1'
+band30-solo=false
+band30-type='Off'
+band31-frequency=18058.400000000001
+band31-gain=0.0
+band31-mode='RLC (BT)'
+band31-mute=false
+band31-q=4.3600000000000003
+band31-slope='x1'
+band31-solo=false
+band31-type='Off'
+band4-frequency=800.0
+band4-gain=-7.0
+band4-mode='APO (DR)'
+band4-mute=false
+band4-q=2.0
+band4-slope='x2'
+band4-solo=false
+band4-type='Off'
+band5-frequency=1300.0
+band5-gain=-3.0
+band5-mode='APO (DR)'
+band5-mute=false
+band5-q=2.0
+band5-slope='x2'
+band5-solo=false
+band5-type='Off'
+band6-frequency=2000.0
+band6-gain=3.0
+band6-mode='APO (DR)'
+band6-mute=false
+band6-q=2.0
+band6-slope='x3'
+band6-solo=false
+band6-type='Off'
+band7-frequency=4000.0
+band7-gain=4.0
+band7-mode='APO (DR)'
+band7-mute=false
+band7-q=2.5
+band7-slope='x3'
+band7-solo=false
+band7-type='Off'
+band8-frequency=7800.0
+band8-gain=2.0
+band8-mode='APO (DR)'
+band8-mute=false
+band8-q=2.5
+band8-slope='x4'
+band8-solo=false
+band8-type='Off'
+band9-frequency=13000.0
+band9-gain=1.0
+band9-mode='APO (DR)'
+band9-mute=false
+band9-q=2.5
+band9-slope='x4'
+band9-solo=false
+band9-type='Off'
+
+[com/github/wwmm/easyeffects/streamoutputs/equalizer/2]
+bypass=true
+num-bands=2
+split-channels=true
+
+[com/github/wwmm/easyeffects/streamoutputs/equalizer/2/leftchannel]
+band0-frequency=554.0
+band0-gain=6.0
+band0-mode='LRX (BT)'
+band0-q=0.0
+band0-slope='x4'
+band0-type='Bell'
+band1-frequency=4434.0
+band1-gain=6.0
+band1-mode='LRX (BT)'
+band1-q=0.0
+band1-slope='x4'
+band1-type='Bell'
+band10-type='Off'
+band11-type='Off'
+band12-type='Off'
+band13-type='Off'
+band14-type='Off'
+band15-type='Off'
+band16-type='Off'
+band17-type='Off'
+band18-type='Off'
+band19-type='Off'
+band2-type='Off'
+band20-type='Off'
+band21-type='Off'
+band22-type='Off'
+band23-type='Off'
+band24-type='Off'
+band25-type='Off'
+band26-type='Off'
+band27-type='Off'
+band28-type='Off'
+band29-type='Off'
+band3-type='Off'
+band30-type='Off'
+band31-type='Off'
+band4-type='Off'
+band5-type='Off'
+band6-type='Off'
+band7-type='Off'
+band8-type='Off'
+band9-type='Off'
+
+[com/github/wwmm/easyeffects/streamoutputs/equalizer/2/rightchannel]
+band0-frequency=1567.0
+band0-gain=6.0
+band0-mode='LRX (BT)'
+band0-mute=false
+band0-q=0.0
+band0-slope='x4'
+band0-solo=false
+band0-type='Bell'
+band1-frequency=12543.0
+band1-gain=6.0
+band1-mode='LRX (BT)'
+band1-mute=false
+band1-q=0.0
+band1-slope='x4'
+band1-solo=false
+band1-type='Bell'
+band10-frequency=194.06
+band10-gain=0.0
+band10-mode='RLC (BT)'
+band10-mute=false
+band10-q=4.3600000000000003
+band10-slope='x1'
+band10-solo=false
+band10-type='Off'
+band11-frequency=240.81
+band11-gain=0.0
+band11-mode='RLC (BT)'
+band11-mute=false
+band11-q=4.3600000000000003
+band11-slope='x1'
+band11-solo=false
+band11-type='Off'
+band12-frequency=298.834
+band12-gain=0.0
+band12-mode='RLC (BT)'
+band12-mute=false
+band12-q=4.3600000000000003
+band12-slope='x1'
+band12-solo=false
+band12-type='Off'
+band13-frequency=370.834
+band13-gain=0.0
+band13-mode='RLC (BT)'
+band13-mute=false
+band13-q=4.3600000000000003
+band13-slope='x1'
+band13-solo=false
+band13-type='Off'
+band14-frequency=460.18200000000002
+band14-gain=0.0
+band14-mode='RLC (BT)'
+band14-mute=false
+band14-q=4.3600000000000003
+band14-slope='x1'
+band14-solo=false
+band14-type='Off'
+band15-frequency=571.05700000000002
+band15-gain=0.0
+band15-mode='RLC (BT)'
+band15-mute=false
+band15-q=4.3600000000000003
+band15-slope='x1'
+band15-solo=false
+band15-type='Off'
+band16-frequency=708.64700000000005
+band16-gain=0.0
+band16-mode='RLC (BT)'
+band16-mute=false
+band16-q=4.3600000000000003
+band16-slope='x1'
+band16-solo=false
+band16-type='Off'
+band17-frequency=879.38699999999994
+band17-gain=0.0
+band17-mode='RLC (BT)'
+band17-mute=false
+band17-q=4.3600000000000003
+band17-slope='x1'
+band17-solo=false
+band17-type='Off'
+band18-frequency=1091.26
+band18-gain=0.0
+band18-mode='RLC (BT)'
+band18-mute=false
+band18-q=4.3600000000000003
+band18-slope='x1'
+band18-solo=false
+band18-type='Off'
+band19-frequency=1354.1900000000001
+band19-gain=0.0
+band19-mode='RLC (BT)'
+band19-mute=false
+band19-q=4.3600000000000003
+band19-slope='x1'
+band19-solo=false
+band19-type='Off'
+band2-frequency=34.509999999999998
+band2-gain=0.0
+band2-mode='RLC (BT)'
+band2-mute=false
+band2-q=4.3600000000000003
+band2-slope='x1'
+band2-solo=false
+band2-type='Off'
+band20-frequency=1680.47
+band20-gain=0.0
+band20-mode='RLC (BT)'
+band20-mute=false
+band20-q=4.3600000000000003
+band20-slope='x1'
+band20-solo=false
+band20-type='Off'
+band21-frequency=2085.3499999999999
+band21-gain=0.0
+band21-mode='RLC (BT)'
+band21-mute=false
+band21-q=4.3600000000000003
+band21-slope='x1'
+band21-solo=false
+band21-type='Off'
+band22-frequency=2587.79
+band22-gain=0.0
+band22-mode='RLC (BT)'
+band22-mute=false
+band22-q=4.3600000000000003
+band22-slope='x1'
+band22-solo=false
+band22-type='Off'
+band23-frequency=3211.29
+band23-gain=0.0
+band23-mode='RLC (BT)'
+band23-mute=false
+band23-q=4.3600000000000003
+band23-slope='x1'
+band23-solo=false
+band23-type='Off'
+band24-frequency=3985.0100000000002
+band24-gain=0.0
+band24-mode='RLC (BT)'
+band24-mute=false
+band24-q=4.3600000000000003
+band24-slope='x1'
+band24-solo=false
+band24-type='Off'
+band25-frequency=4945.1499999999996
+band25-gain=0.0
+band25-mode='RLC (BT)'
+band25-mute=false
+band25-q=4.3600000000000003
+band25-slope='x1'
+band25-solo=false
+band25-type='Off'
+band26-frequency=6136.6300000000001
+band26-gain=0.0
+band26-mode='RLC (BT)'
+band26-mute=false
+band26-q=4.3600000000000003
+band26-slope='x1'
+band26-solo=false
+band26-type='Off'
+band27-frequency=7615.1700000000001
+band27-gain=0.0
+band27-mode='RLC (BT)'
+band27-mute=false
+band27-q=4.3600000000000003
+band27-slope='x1'
+band27-solo=false
+band27-type='Off'
+band28-frequency=9449.9599999999991
+band28-gain=0.0
+band28-mode='RLC (BT)'
+band28-mute=false
+band28-q=4.3600000000000003
+band28-slope='x1'
+band28-solo=false
+band28-type='Off'
+band29-frequency=11726.799999999999
+band29-gain=0.0
+band29-mode='RLC (BT)'
+band29-mute=false
+band29-q=4.3600000000000003
+band29-slope='x1'
+band29-solo=false
+band29-type='Off'
+band3-frequency=42.82
+band3-gain=0.0
+band3-mode='RLC (BT)'
+band3-mute=false
+band3-q=4.3600000000000003
+band3-slope='x1'
+band3-solo=false
+band3-type='Off'
+band30-frequency=14552.200000000001
+band30-gain=0.0
+band30-mode='RLC (BT)'
+band30-mute=false
+band30-q=4.3600000000000003
+band30-slope='x1'
+band30-solo=false
+band30-type='Off'
+band31-frequency=18058.400000000001
+band31-gain=0.0
+band31-mode='RLC (BT)'
+band31-mute=false
+band31-q=4.3600000000000003
+band31-slope='x1'
+band31-solo=false
+band31-type='Off'
+band4-frequency=53.140000000000001
+band4-gain=0.0
+band4-mode='RLC (BT)'
+band4-mute=false
+band4-q=4.3600000000000003
+band4-slope='x1'
+band4-solo=false
+band4-type='Off'
+band5-frequency=65.950000000000003
+band5-gain=0.0
+band5-mode='RLC (BT)'
+band5-mute=false
+band5-q=4.3600000000000003
+band5-slope='x1'
+band5-solo=false
+band5-type='Off'
+band6-frequency=81.829999999999998
+band6-gain=0.0
+band6-mode='RLC (BT)'
+band6-mute=false
+band6-q=4.3600000000000003
+band6-slope='x1'
+band6-solo=false
+band6-type='Off'
+band7-frequency=101.55
+band7-gain=0.0
+band7-mode='RLC (BT)'
+band7-mute=false
+band7-q=4.3600000000000003
+band7-slope='x1'
+band7-solo=false
+band7-type='Off'
+band8-frequency=126.0
+band8-gain=0.0
+band8-mode='RLC (BT)'
+band8-mute=false
+band8-q=4.3600000000000003
+band8-slope='x1'
+band8-solo=false
+band8-type='Off'
+band9-frequency=156.38
+band9-gain=0.0
+band9-mode='RLC (BT)'
+band9-mute=false
+band9-q=4.3600000000000003
+band9-slope='x1'
+band9-solo=false
+band9-type='Off'
+
+[com/github/wwmm/easyeffects/streamoutputs/equalizer/3]
+bypass=true
+num-bands=3
+split-channels=true
+
+[com/github/wwmm/easyeffects/streamoutputs/equalizer/3/leftchannel]
+band0-frequency=466.0
+band0-gain=6.0
+band0-mode='LRX (BT)'
+band0-q=0.0
+band0-slope='x4'
+band0-type='Bell'
+band1-frequency=1864.0
+band1-gain=6.0
+band1-mode='LRX (BT)'
+band1-q=0.0
+band1-slope='x4'
+band1-type='Bell'
+band10-type='Off'
+band11-type='Off'
+band12-type='Off'
+band13-type='Off'
+band14-type='Off'
+band15-type='Off'
+band16-type='Off'
+band17-type='Off'
+band18-type='Off'
+band19-type='Off'
+band2-frequency=7458.0
+band2-gain=6.0
+band2-mode='LRX (BT)'
+band2-q=0.0
+band2-slope='x4'
+band2-type='Bell'
+band20-type='Off'
+band21-type='Off'
+band22-type='Off'
+band23-type='Off'
+band24-type='Off'
+band25-type='Off'
+band26-type='Off'
+band27-type='Off'
+band28-type='Off'
+band29-type='Off'
+band3-type='Off'
+band30-type='Off'
+band31-type='Off'
+band4-type='Off'
+band5-type='Off'
+band6-type='Off'
+band7-type='Off'
+band8-type='Off'
+band9-type='Off'
+
+[com/github/wwmm/easyeffects/streamoutputs/equalizer/3/rightchannel]
+band0-frequency=932.0
+band0-gain=6.0
+band0-mode='LRX (BT)'
+band0-mute=false
+band0-q=0.0
+band0-slope='x4'
+band0-solo=false
+band0-type='Bell'
+band1-frequency=3729.0
+band1-gain=6.0
+band1-mode='LRX (BT)'
+band1-mute=false
+band1-q=0.0
+band1-slope='x4'
+band1-solo=false
+band1-type='Bell'
+band10-frequency=194.06
+band10-gain=0.0
+band10-mode='RLC (BT)'
+band10-mute=false
+band10-q=4.3600000000000003
+band10-slope='x1'
+band10-solo=false
+band10-type='Off'
+band11-frequency=240.81
+band11-gain=0.0
+band11-mode='RLC (BT)'
+band11-mute=false
+band11-q=4.3600000000000003
+band11-slope='x1'
+band11-solo=false
+band11-type='Off'
+band12-frequency=298.834
+band12-gain=0.0
+band12-mode='RLC (BT)'
+band12-mute=false
+band12-q=4.3600000000000003
+band12-slope='x1'
+band12-solo=false
+band12-type='Off'
+band13-frequency=370.834
+band13-gain=0.0
+band13-mode='RLC (BT)'
+band13-mute=false
+band13-q=4.3600000000000003
+band13-slope='x1'
+band13-solo=false
+band13-type='Off'
+band14-frequency=460.18200000000002
+band14-gain=0.0
+band14-mode='RLC (BT)'
+band14-mute=false
+band14-q=4.3600000000000003
+band14-slope='x1'
+band14-solo=false
+band14-type='Off'
+band15-frequency=571.05700000000002
+band15-gain=0.0
+band15-mode='RLC (BT)'
+band15-mute=false
+band15-q=4.3600000000000003
+band15-slope='x1'
+band15-solo=false
+band15-type='Off'
+band16-frequency=708.64700000000005
+band16-gain=0.0
+band16-mode='RLC (BT)'
+band16-mute=false
+band16-q=4.3600000000000003
+band16-slope='x1'
+band16-solo=false
+band16-type='Off'
+band17-frequency=879.38699999999994
+band17-gain=0.0
+band17-mode='RLC (BT)'
+band17-mute=false
+band17-q=4.3600000000000003
+band17-slope='x1'
+band17-solo=false
+band17-type='Off'
+band18-frequency=1091.26
+band18-gain=0.0
+band18-mode='RLC (BT)'
+band18-mute=false
+band18-q=4.3600000000000003
+band18-slope='x1'
+band18-solo=false
+band18-type='Off'
+band19-frequency=1354.1900000000001
+band19-gain=0.0
+band19-mode='RLC (BT)'
+band19-mute=false
+band19-q=4.3600000000000003
+band19-slope='x1'
+band19-solo=false
+band19-type='Off'
+band2-frequency=14917.0
+band2-gain=6.0
+band2-mode='LRX (BT)'
+band2-mute=false
+band2-q=0.0
+band2-slope='x4'
+band2-solo=false
+band2-type='Bell'
+band20-frequency=1680.47
+band20-gain=0.0
+band20-mode='RLC (BT)'
+band20-mute=false
+band20-q=4.3600000000000003
+band20-slope='x1'
+band20-solo=false
+band20-type='Off'
+band21-frequency=2085.3499999999999
+band21-gain=0.0
+band21-mode='RLC (BT)'
+band21-mute=false
+band21-q=4.3600000000000003
+band21-slope='x1'
+band21-solo=false
+band21-type='Off'
+band22-frequency=2587.79
+band22-gain=0.0
+band22-mode='RLC (BT)'
+band22-mute=false
+band22-q=4.3600000000000003
+band22-slope='x1'
+band22-solo=false
+band22-type='Off'
+band23-frequency=3211.29
+band23-gain=0.0
+band23-mode='RLC (BT)'
+band23-mute=false
+band23-q=4.3600000000000003
+band23-slope='x1'
+band23-solo=false
+band23-type='Off'
+band24-frequency=3985.0100000000002
+band24-gain=0.0
+band24-mode='RLC (BT)'
+band24-mute=false
+band24-q=4.3600000000000003
+band24-slope='x1'
+band24-solo=false
+band24-type='Off'
+band25-frequency=4945.1499999999996
+band25-gain=0.0
+band25-mode='RLC (BT)'
+band25-mute=false
+band25-q=4.3600000000000003
+band25-slope='x1'
+band25-solo=false
+band25-type='Off'
+band26-frequency=6136.6300000000001
+band26-gain=0.0
+band26-mode='RLC (BT)'
+band26-mute=false
+band26-q=4.3600000000000003
+band26-slope='x1'
+band26-solo=false
+band26-type='Off'
+band27-frequency=7615.1700000000001
+band27-gain=0.0
+band27-mode='RLC (BT)'
+band27-mute=false
+band27-q=4.3600000000000003
+band27-slope='x1'
+band27-solo=false
+band27-type='Off'
+band28-frequency=9449.9599999999991
+band28-gain=0.0
+band28-mode='RLC (BT)'
+band28-mute=false
+band28-q=4.3600000000000003
+band28-slope='x1'
+band28-solo=false
+band28-type='Off'
+band29-frequency=11726.799999999999
+band29-gain=0.0
+band29-mode='RLC (BT)'
+band29-mute=false
+band29-q=4.3600000000000003
+band29-slope='x1'
+band29-solo=false
+band29-type='Off'
+band3-frequency=42.82
+band3-gain=0.0
+band3-mode='RLC (BT)'
+band3-mute=false
+band3-q=4.3600000000000003
+band3-slope='x1'
+band3-solo=false
+band3-type='Off'
+band30-frequency=14552.200000000001
+band30-gain=0.0
+band30-mode='RLC (BT)'
+band30-mute=false
+band30-q=4.3600000000000003
+band30-slope='x1'
+band30-solo=false
+band30-type='Off'
+band31-frequency=18058.400000000001
+band31-gain=0.0
+band31-mode='RLC (BT)'
+band31-mute=false
+band31-q=4.3600000000000003
+band31-slope='x1'
+band31-solo=false
+band31-type='Off'
+band4-frequency=53.140000000000001
+band4-gain=0.0
+band4-mode='RLC (BT)'
+band4-mute=false
+band4-q=4.3600000000000003
+band4-slope='x1'
+band4-solo=false
+band4-type='Off'
+band5-frequency=65.950000000000003
+band5-gain=0.0
+band5-mode='RLC (BT)'
+band5-mute=false
+band5-q=4.3600000000000003
+band5-slope='x1'
+band5-solo=false
+band5-type='Off'
+band6-frequency=81.829999999999998
+band6-gain=0.0
+band6-mode='RLC (BT)'
+band6-mute=false
+band6-q=4.3600000000000003
+band6-slope='x1'
+band6-solo=false
+band6-type='Off'
+band7-frequency=101.55
+band7-gain=0.0
+band7-mode='RLC (BT)'
+band7-mute=false
+band7-q=4.3600000000000003
+band7-slope='x1'
+band7-solo=false
+band7-type='Off'
+band8-frequency=126.0
+band8-gain=0.0
+band8-mode='RLC (BT)'
+band8-mute=false
+band8-q=4.3600000000000003
+band8-slope='x1'
+band8-solo=false
+band8-type='Off'
+band9-frequency=156.38
+band9-gain=0.0
+band9-mode='RLC (BT)'
+band9-mute=false
+band9-q=4.3600000000000003
+band9-slope='x1'
+band9-solo=false
+band9-type='Off'
+
+[com/github/wwmm/easyeffects/streamoutputs/exciter/0]
+amount=6.0
+harmonics=8.0000000000000018
+input-gain=-2.0
+scope=5500.0
+
+[com/github/wwmm/easyeffects/streamoutputs/filter/0]
+bypass=true
+frequency=329.0
+
+[com/github/wwmm/easyeffects/streamoutputs/limiter/0]
+alr=false
+alr-attack=5.0
+alr-knee=0.0
+alr-release=50.0
+lookahead=10.0
+oversampling='None'
+sidechain-input-device='alsa_input.usb-SHENZHEN_AONI_ELECTRONIC_CO.__LTD_NexiGo_N930AF_FHD_Webcam_20201217010-02.mono-fallback'
+stereo-link=100.0
+
+[com/github/wwmm/easyeffects/streamoutputs/loudness/0]
+bypass=false
+volume=4.0000000000000018
+
+[com/github/wwmm/easyeffects/streamoutputs/maximizer/0]
+release=25.0
+
+[com/github/wwmm/easyeffects/streamoutputs/multibandcompressor/0]
+attack-threshold0=0.0
+attack-threshold1=0.0
+attack-threshold2=0.0
+attack-time0=0.0
+attack-time1=0.0
+attack-time2=0.0
+boost-threshold0=-72.0
+bypass=true
+compression-mode0='Upward'
+compression-mode1='Upward'
+compression-mode2='Upward'
+compression-mode3='Downward'
+compression-mode4='Downward'
+compression-mode5='Downward'
+compression-mode6='Downward'
+compression-mode7='Downward'
+compressor-enable0=true
+compressor-enable2=true
+compressor-enable3=false
+compressor-enable4=false
+compressor-enable5=false
+compressor-enable6=false
+compressor-enable7=false
+enable-band3=false
+enable-band4=false
+enable-band5=false
+enable-band6=false
+enable-band7=false
+knee0=0.0
+knee1=0.0
+knee2=0.0
+knee3=-6.0
+knee4=-6.0
+knee5=-6.0
+knee6=-6.0
+knee7=-6.0
+makeup1=0.0
+makeup2=0.0
+makeup4=0.0
+makeup5=0.0
+makeup7=0.0
+ratio0=1.2
+ratio1=1.2
+ratio2=1.2
+ratio3=1.0
+ratio4=1.0
+ratio5=1.0
+ratio6=1.0
+ratio7=1.0
+release-time0=100.0
+release-time1=100.0
+release-time2=100.0
+release-time3=100.0
+release-time4=100.0
+release-time5=100.0
+release-time6=100.0
+release-time7=100.0
+sidechain-input-device='alsa_input.usb-SHENZHEN_AONI_ELECTRONIC_CO.__LTD_NexiGo_N930AF_FHD_Webcam_20201217010-02.mono-fallback'
+sidechain-lowcut-frequency0=10.0
+sidechain-reactivity0=250.0
+sidechain-reactivity1=250.0
+sidechain-reactivity2=250.0
+sidechain-source0='Middle'
+split-frequency1=138.0
+split-frequency2=4434.0
+
+[com/github/wwmm/easyeffects/streamoutputs/multibandcompressor/1]
+attack-threshold0=0.0
+attack-threshold1=0.0
+attack-threshold2=0.0
+attack-time0=0.0
+attack-time1=0.0
+attack-time2=0.0
+bypass=true
+compression-mode0='Upward'
+compression-mode1='Upward'
+compression-mode2='Upward'
+compressor-enable3=false
+compressor-enable4=false
+compressor-enable5=false
+compressor-enable6=false
+compressor-enable7=false
+enable-band3=false
+knee0=0.0
+knee1=0.0
+knee2=0.0
+ratio0=1.2
+ratio1=1.2
+ratio2=1.2
+sidechain-input-device='alsa_input.usb-SHENZHEN_AONI_ELECTRONIC_CO.__LTD_NexiGo_N930AF_FHD_Webcam_20201217010-02.mono-fallback'
+sidechain-reactivity0=250.0
+sidechain-reactivity1=250.0
+sidechain-reactivity2=250.0
+split-frequency1=116.0
+split-frequency2=5274.0
+
+[com/github/wwmm/easyeffects/streamoutputs/reverb/0]
+amount=-6.0
+bass-cut=196.0
+bypass=true
+decay-time=0.40000000000000002
+diffusion=0.0
+hf-damp=12543.0
+predelay=20.0
+room-size='Large/smooth'
+treble-cut=12543.0
+
+[com/github/wwmm/easyeffects/streamoutputs/stereotools/0]
+bypass=true
+delay=20.0
+phaser=true
+
+[desktop/ibus/general]
+preload-engines=['xkb:it::ita']
+version='1.5.27'
+
 [org/freedesktop/tracker/miner/files]
 index-recursive-directories=['&DOCUMENTS', '&MUSIC', '&PICTURES', '&VIDEOS', '/home/ulysses/data/storage']
 
+[org/gnome/Connections]
+first-run=false
+
+[org/gnome/TextEditor]
+show-line-numbers=true
+show-right-margin=false
+use-system-font=true
+
+[org/gnome/Totem]
+active-plugins=['vimeo', 'save-file', 'screensaver', 'recent', 'screenshot', 'apple-trailers', 'open-directory', 'movie-properties', 'rotation', 'variable-rate', 'autoload-subtitles', 'mpris', 'skipto']
+subtitle-encoding='UTF-8'
+
+[org/gnome/calculator]
+accuracy=9
+angle-units='degrees'
+base=10
+button-mode='basic'
+number-format='automatic'
+show-thousands=false
+show-zeroes=false
+source-currency=''
+source-units='degree'
+target-currency=''
+target-units='radian'
+window-position=(50, 82)
+word-size=64
+
 [org/gnome/control-center]
-last-panel='search'
+last-panel='network'
 window-state=(980, 640, false)
 
 [org/gnome/desktop/app-folders]
@@ -20,13 +1620,15 @@ name='suse-yast.directory'
 translate=true
 
 [org/gnome/desktop/background]
+color-shading-type='solid'
 picture-options='zoom'
-picture-uri='/home/ulysses/.config/background'
-picture-uri-dark='/home/ulysses/.config/background'
-primary-color='#02023c3c8888'
+picture-uri='file:///home/ulysses/Pictures/Wallpapers/ben-den-engelsen-OQv1mrCWy4w-unsplash.jpg'
+picture-uri-dark='file:///home/ulysses/Pictures/Wallpapers/ben-den-engelsen-OQv1mrCWy4w-unsplash.jpg'
+primary-color='#000000'
+secondary-color='#000000'
 
 [org/gnome/desktop/input-sources]
-mru-sources=[('xkb', 'us'), ('xkb', 'it')]
+mru-sources=[('xkb', 'it'), ('xkb', 'us')]
 sources=[('xkb', 'us'), ('xkb', 'it')]
 xkb-options=['caps:none']
 
@@ -39,22 +1641,101 @@ gtk-theme='Orchis-Dark-Compact'
 icon-theme='Tela'
 
 [org/gnome/desktop/notifications]
-application-children=['firefox-esr', 'org-gnome-nautilus', 'org-pwmt-zathura', 'org-gnome-software']
+application-children=['firefox-esr', 'org-gnome-nautilus', 'org-pwmt-zathura', 'org-gnome-software', 'firefox-firefox', 'libreoffice-calc', 'org-gnome-terminal', 'gnome-printers-panel', 'slack', 'microsoft-edge', 'org-inkscape-inkscape', 'org-gnome-evince', 'libreoffice-writer', 'com-github-wwmm-easyeffects', 'gnucash', 'org-gnome-settings', 'org-qbittorrent-qbittorrent', 'texstudio', 'net-lutris-lutris', 'google-chrome', 'org-gnome-tweaks', 'calibre-gui', 'libreoffice-impress', 'org-gnome-texteditor', 'org-gnome-totem', 'thunderbird']
+
+[org/gnome/desktop/notifications/application/calibre-gui]
+application-id='calibre-gui.desktop'
+
+[org/gnome/desktop/notifications/application/com-github-wwmm-easyeffects]
+application-id='com.github.wwmm.easyeffects.desktop'
 
 [org/gnome/desktop/notifications/application/firefox-esr]
 application-id='firefox-esr.desktop'
 
+[org/gnome/desktop/notifications/application/firefox-firefox]
+application-id='firefox_firefox.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-power-panel]
+application-id='gnome-power-panel.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-printers-panel]
+application-id='gnome-printers-panel.desktop'
+
+[org/gnome/desktop/notifications/application/gnucash]
+application-id='gnucash.desktop'
+
+[org/gnome/desktop/notifications/application/google-chrome]
+application-id='google-chrome.desktop'
+
+[org/gnome/desktop/notifications/application/libreoffice-calc]
+application-id='libreoffice-calc.desktop'
+
+[org/gnome/desktop/notifications/application/libreoffice-impress]
+application-id='libreoffice-impress.desktop'
+
+[org/gnome/desktop/notifications/application/libreoffice-writer]
+application-id='libreoffice-writer.desktop'
+
+[org/gnome/desktop/notifications/application/microsoft-edge]
+application-id='microsoft-edge.desktop'
+
+[org/gnome/desktop/notifications/application/net-lutris-lutris]
+application-id='net.lutris.Lutris.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-evince]
+application-id='org.gnome.Evince.desktop'
+
 [org/gnome/desktop/notifications/application/org-gnome-nautilus]
 application-id='org.gnome.Nautilus.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-settings]
+application-id='org.gnome.Settings.desktop'
 
 [org/gnome/desktop/notifications/application/org-gnome-software]
 application-id='org.gnome.Software.desktop'
 
+[org/gnome/desktop/notifications/application/org-gnome-terminal]
+application-id='org.gnome.Terminal.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-texteditor]
+application-id='org.gnome.TextEditor.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-totem]
+application-id='org.gnome.Totem.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-tweaks]
+application-id='org.gnome.tweaks.desktop'
+
+[org/gnome/desktop/notifications/application/org-inkscape-inkscape]
+application-id='org.inkscape.Inkscape.desktop'
+
 [org/gnome/desktop/notifications/application/org-pwmt-zathura]
 application-id='org.pwmt.zathura.desktop'
 
+[org/gnome/desktop/notifications/application/org-qbittorrent-qbittorrent]
+application-id='org.qbittorrent.qBittorrent.desktop'
+
+[org/gnome/desktop/notifications/application/slack]
+application-id='slack.desktop'
+
+[org/gnome/desktop/notifications/application/texstudio]
+application-id='texstudio.desktop'
+
+[org/gnome/desktop/notifications/application/thunderbird]
+application-id='thunderbird.desktop'
+
 [org/gnome/desktop/peripherals/keyboard]
 numlock-state=false
+
+[org/gnome/desktop/privacy]
+old-files-age=uint32 30
+recent-files-max-age=-1
+
+[org/gnome/desktop/remote-desktop/rdp]
+enable=false
+tls-cert='/home/ulysses/.local/share/gnome-remote-desktop/rdp-tls.crt'
+tls-key='/home/ulysses/.local/share/gnome-remote-desktop/rdp-tls.key'
+view-only=true
 
 [org/gnome/desktop/screensaver]
 lock-enabled=false
@@ -66,6 +1747,10 @@ sort-order=['org.gnome.Contacts.desktop', 'org.gnome.Documents.desktop', 'org.gn
 [org/gnome/desktop/session]
 idle-delay=uint32 300
 
+[org/gnome/desktop/sound]
+event-sounds=true
+theme-name='__custom'
+
 [org/gnome/desktop/wm/keybindings]
 close=['<Super>q']
 switch-to-workspace-1=['<Super>1']
@@ -75,37 +1760,88 @@ switch-to-workspace-4=['<Super>4']
 switch-to-workspace-left=['<Super>bracketleft']
 switch-to-workspace-right=['<Super>bracketright']
 
+[org/gnome/eog/ui]
+sidebar=false
+
+[org/gnome/eog/view]
+background-color='rgb(0,0,0)'
+use-background-color=true
+
 [org/gnome/evince]
 document-directory=@ms 'file:///home/ulysses/data/storage/phd/report/intervista-dotoli'
 
 [org/gnome/evince/default]
-window-ratio=(1.6107382550335569, 1.2446555819477434)
+window-ratio=(1.5714285714285714, 1.1280864197530864)
 
 [org/gnome/evolution-data-server]
 migrated=true
+network-monitor-gio-name=''
+
+[org/gnome/gedit/plugins]
+active-plugins=['spell', 'docinfo', 'openlinks', 'sort', 'filebrowser', 'modelines']
+
+[org/gnome/gedit/plugins/filebrowser]
+root='file:///'
+tree-view=true
+virtual-root='file:///home/ulysses/Documents/storage/phd/scripts/ros'
+
+[org/gnome/gedit/preferences/ui]
+show-tabs-mode='auto'
+
+[org/gnome/gedit/state/window]
+bottom-panel-size=140
+side-panel-active-page='GeditWindowDocumentsPanel'
+side-panel-size=200
+size=(900, 700)
+state=87168
+
+[org/gnome/maps]
+last-viewed-location=[50.850266077167724, 5.6877019253091987]
+map-type='MapsStreetSource'
+transportation-type='pedestrian'
+window-maximized=true
+zoom-level=16
+
+[org/gnome/nautilus/compression]
+default-compression-format='zip'
 
 [org/gnome/nautilus/icon-view]
 default-zoom-level='small-plus'
+
+[org/gnome/nautilus/list-view]
+default-zoom-level='large'
 
 [org/gnome/nautilus/preferences]
 default-folder-viewer='icon-view'
 migrated-gtk-settings=true
 search-filter-time-type='last_modified'
-search-view='list-view'
+search-view='icon-view'
 
 [org/gnome/nautilus/window-state]
-initial-size=(890, 550)
+initial-size=(1559, 712)
 maximized=false
+
+[org/gnome/nm-applet/eap/2030018a-3425-4831-84dc-a90fb1a6ea85]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/96e0e4a1-2f01-4f73-891a-d21c071e71f0]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/da907562-e5c7-4f03-80a3-4c574eb30dcd]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
 
 [org/gnome/settings-daemon/plugins/color]
 night-light-enabled=true
 night-light-schedule-automatic=false
 night-light-schedule-from=0.0
 night-light-schedule-to=0.0
-night-light-temperature=uint32 3345
+night-light-temperature=uint32 3700
 
 [org/gnome/settings-daemon/plugins/media-keys]
-custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/']
 home=['<Super>f']
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
@@ -113,14 +1849,28 @@ binding='<Super>Return'
 command='gnome-terminal'
 name='Launch terminal'
 
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+binding='<Super>w'
+command='google-chrome --new-tab "web.whatsapp.com"'
+name='Lauch Whatsapp Web'
+
 [org/gnome/settings-daemon/plugins/power]
 sleep-inactive-ac-timeout=7200
 sleep-inactive-ac-type='nothing'
 
 [org/gnome/shell]
-favorite-apps=['firefox-esr.desktop', 'libreoffice-writer.desktop', 'org.gnome.Nautilus.desktop']
+app-picker-layout=[{'org.gnome.Contacts.desktop': <{'position': <0>}>, 'org.gnome.Extensions.desktop': <{'position': <1>}>, 'org.gnome.Totem.desktop': <{'position': <2>}>, 'org.gnome.Calculator.desktop': <{'position': <3>}>, 'gnome-system-monitor.desktop': <{'position': <4>}>, 'Utilities': <{'position': <5>}>, 'yelp.desktop': <{'position': <6>}>}, {'im-config.desktop': <{'position': <0>}>, 'org.gnome.Settings.desktop': <{'position': <1>}>, 'org.gnome.Software.desktop': <{'position': <2>}>, 'software-properties-gtk.desktop': <{'position': <3>}>, 'org.gnome.TextEditor.desktop': <{'position': <4>}>}]
+enabled-extensions=['color-picker@tuberry', 'caffeine@patapon.info']
+favorite-apps=['google-chrome.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Terminal.desktop']
+last-selected-power-profile='performance'
 remember-mount-password=true
 welcome-dialog-last-shown-version='43.9'
+
+[org/gnome/shell/extensions/caffeine]
+indicator-position-max=1
+
+[org/gnome/shell/extensions/color-picker]
+colors-history='#8c8c8c|#0d1117|#0d1117|#90202e|#b3b3b3|#4c4c4c|#33258a|#352f88'
 
 [org/gnome/shell/keybindings]
 show-screenshot-ui=['<Super>i']
@@ -130,18 +1880,55 @@ switch-to-application-3=@as []
 switch-to-application-4=@as []
 
 [org/gnome/software]
-check-timestamp=int64 1706779588
+check-timestamp=int64 1729275367
 first-run=false
-update-notification-timestamp=int64 1706722276
+update-notification-timestamp=int64 1729154764
+
+[org/gnome/terminal/legacy]
+theme-variant='dark'
+
+[org/gnome/terminal/legacy/keybindings]
+close-tab='<Primary>w'
+new-tab='<Primary>t'
 
 [org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
 audible-bell=false
 font='Hack Nerd Font 12'
 use-system-font=false
 
+[org/gnucash/GnuCash/dialogs/new-user]
+first-startup=false
+
+[org/gnucash/GnuCash/dialogs/open-save]
+last-path='/home/ulysses/Documents/storage/docs/gnucash'
+
+[org/gnucash/GnuCash/dialogs/preferences]
+last-geometry=(544, 150, 832, 781)
+
+[org/gnucash/GnuCash/dialogs/tip-of-the-day]
+current-tip=1
+last-geometry=(760, 405, 400, 300)
+show-at-startup=false
+
+[org/gnucash/GnuCash/general]
+date-completion-thisyear=false
+date-format=2
+
+[org/gnucash/GnuCash/history]
+file0='/home/ulysses/Documents/storage/docs/gnucash/mastro.gnucash'
+
 [org/gtk/gtk4/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
 show-hidden=true
+show-size-column=true
+show-type-column=true
+sidebar-width=169
+sort-column='modified'
 sort-directories-first=false
+sort-order='descending'
+type-format='category'
+window-size=(1202, 810)
 
 [org/gtk/settings/file-chooser]
 date-format='regular'
@@ -150,9 +1937,9 @@ show-hidden=false
 show-size-column=true
 show-type-column=true
 sidebar-width=157
-sort-column='name'
+sort-column='modified'
 sort-directories-first=false
-sort-order='ascending'
+sort-order='descending'
 type-format='category'
 window-position=(345, 85)
 window-size=(1231, 902)
