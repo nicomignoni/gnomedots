@@ -1,4 +1,5 @@
 alias gnomedots='/usr/bin/git --git-dir=$HOME/.gnomedots/ --work-tree=$HOME'
+alias fd='fdfind'
 alias ll='ls -lah'
 alias hh='eval $(history | sort --reverse --numeric-sort | cut -c 8- | fzf)'
 alias cc='cd "$HOME/Documents/storage/$(fd . --type directory --ignore-case --base-directory=$HOME/Documents/storage | fzf)"'
