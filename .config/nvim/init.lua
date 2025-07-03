@@ -54,7 +54,7 @@ vim.keymap.set("n", "<S-Tab>", ":bprev<CR>", { noremap = true, silent = true })
 -- Edit the current directory 
 vim.keymap.set("n", "<leader>sf", ":e .<CR>", { noremap = true, silent = true })
 
--- Edit the nivm config directory
+-- Edit the nvim config directory
 vim.keymap.set("n", "<leader>sn", ":e $HOME/.config/nvim<CR>", { noremap = true, silent = true })
 
 -- Bootstrap lazy.nvim
@@ -87,11 +87,29 @@ require("lazy").setup({
     	    end
     	},
 
+	-- Treesitter
+	{
+	    "nvim-treesitter/nvim-treesitter",
+	    build = function()
+		require("nvim-treesitter.install").update({ with_sync = true })()
+	    end
+	},
+
 	-- Some of the mini.nvim plugins
 	{ 
-	    'echasnovski/mini.statusline', version = '*',
+	    'echasnovski/mini.nvim', version = '*',
 	    config = function()
+		require("mini.starter").setup()
+		require("mini.icons").setup()
+		require("mini.tabline").setup()
 		require("mini.statusline").setup { use_icons = vim.g.have_nerd_font }
+
+		local gen_loader = require("mini.snippets").gen_loader
+		require("mini.snippets").setup({
+		    snippets = {
+			gen_loader.from_lang() 
+		    }
+		})
 	    end
 	},
 	
@@ -104,6 +122,20 @@ require("lazy").setup({
 		    size = 15
 		}	
 	    end
+	},
+
+	-- Mason
+	{
+	    "mason-org/mason.nvim",
+	    opts = {
+	        ui = {
+	            icons = {
+	                package_installed = "✓",
+	                package_pending = "➜",
+	                package_uninstalled = "✗"
+	            }
+	        }
+	    }
 	},
 
 	-- Autocompletion
@@ -119,20 +151,20 @@ require("lazy").setup({
 	      --
 	      -- See :h blink-cmp-config-keymap for defining your own keymap
 	      keymap = { preset = 'enter' },
-	    
+
 	      appearance = {
-	        nerd_font_variant = 'mono'
+	        nerd_font_variant = 'normal'
 	      },
-	    
+
 	      -- (Default) Only show the documentation popup when manually triggered
 	      completion = { documentation = { auto_show = false } },
-	    
+
 	      -- Default list of enabled providers defined so that you can extend it
 	      -- elsewhere in your config, without redefining it, due to `opts_extend`
 	      sources = {
 	        default = { 'lsp', 'path', 'snippets', 'buffer' },
 	      },
-	    
+
 	      -- (Default) Rust fuzzy matcher for typo resistance and significantly better performance
 	      -- You may use a lua implementation instead by using `implementation = "lua"` or fallback to the lua implementation,
 	      -- when the Rust fuzzy matcher is not available, by using `implementation = "prefer_rust"`
@@ -149,31 +181,14 @@ require("lazy").setup({
 	    lazy = false,     -- we don't want to lazy load VimTeX
 	    -- tag = "v2.15", -- uncomment to pin to a specific release
 	    init = function()
-	      -- VimTeX configuration goes here, e.g.
 	      vim.g.vimtex_view_method = "zathura"
 	    end
 	},
-
-    	-- -- Markdown preview
-    	-- {
-    	--   "iamcco/markdown-preview.nvim",
-    	--   cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
-    	--   build = "cd app && yarn install",
-    	--   init = function()
-    	--     vim.g.mkdp_filetypes = { "markdown" }
-    	--   end,
-    	--   ft = { "markdown" },
-    	-- },
-
+	
 	-- Edit files and directories like a buffer
 	{
 	  'stevearc/oil.nvim',
-	  ---@module 'oil'
-	  ---@type oil.SetupOpts
 	  opts = {},
-	  -- Optional dependencies
-	  dependencies = { { "echasnovski/mini.icons", opts = {} } },
-	  -- dependencies = { "nvim-tree/nvim-web-devicons" }, -- use if you prefer nvim-web-devicons
 	  -- Lazy loading is not recommended because it is very tricky to make it work correctly in all situations.
 	  lazy = false,
 	},
