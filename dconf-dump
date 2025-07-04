@@ -1647,7 +1647,7 @@ window-position=(50, 82)
 word-size=64
 
 [org/gnome/control-center]
-last-panel='keyboard'
+last-panel='network'
 window-state=(858, 518, true)
 
 [org/gnome/desktop/app-folders]
@@ -1675,10 +1675,10 @@ exec='alacritty'
 [org/gnome/desktop/background]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///home/ulysses/.config/background'
-picture-uri-dark='file:///home/ulysses/.config/background'
-primary-color='#000000000000'
-secondary-color='#000000000000'
+picture-uri='file:///usr/share/backgrounds/gnome/blobs-l.svg'
+picture-uri-dark='file:///usr/share/backgrounds/gnome/blobs-d.svg'
+primary-color='#241f31'
+secondary-color='#000000'
 
 [org/gnome/desktop/break-reminders/eyesight]
 play-sound=true
@@ -1694,7 +1694,7 @@ automatic-timezone=true
 [org/gnome/desktop/input-sources]
 current=uint32 0
 mru-sources=[('xkb', 'it'), ('xkb', 'us')]
-sources=[('xkb', 'us'), ('xkb', 'it')]
+sources=[('xkb', 'it'), ('xkb', 'us')]
 xkb-options=['caps:none']
 
 [org/gnome/desktop/interface]
@@ -1707,11 +1707,11 @@ enable-animations=false
 font-antialiasing='grayscale'
 font-hinting='slight'
 gtk-theme='Adwaita'
-icon-theme='Tela'
+icon-theme='Adwaita'
 toolkit-accessibility=false
 
 [org/gnome/desktop/notifications]
-application-children=['firefox-esr', 'org-gnome-nautilus', 'org-pwmt-zathura', 'org-gnome-software', 'firefox-firefox', 'libreoffice-calc', 'org-gnome-terminal', 'gnome-printers-panel', 'slack', 'microsoft-edge', 'org-inkscape-inkscape', 'org-gnome-evince', 'libreoffice-writer', 'com-github-wwmm-easyeffects', 'gnucash', 'org-gnome-settings', 'org-qbittorrent-qbittorrent', 'texstudio', 'net-lutris-lutris', 'google-chrome', 'org-gnome-tweaks', 'calibre-gui', 'libreoffice-impress', 'org-gnome-texteditor', 'org-gnome-totem', 'thunderbird', 'org-freedesktop-problems-applet', 'steam', 'codium', 'alacritty', 'org-mozilla-firefox', 'gimp', 'org-gnome-loupe', 'xournal', 'org-gnome-boxes']
+application-children=['firefox-esr', 'org-gnome-nautilus', 'org-pwmt-zathura', 'org-gnome-software', 'firefox-firefox', 'libreoffice-calc', 'org-gnome-terminal', 'gnome-printers-panel', 'slack', 'microsoft-edge', 'org-inkscape-inkscape', 'org-gnome-evince', 'libreoffice-writer', 'com-github-wwmm-easyeffects', 'gnucash', 'org-gnome-settings', 'org-qbittorrent-qbittorrent', 'texstudio', 'net-lutris-lutris', 'google-chrome', 'org-gnome-tweaks', 'calibre-gui', 'libreoffice-impress', 'org-gnome-texteditor', 'org-gnome-totem', 'thunderbird', 'org-freedesktop-problems-applet', 'steam', 'codium', 'alacritty', 'org-mozilla-firefox', 'gimp', 'org-gnome-loupe', 'xournal', 'org-gnome-boxes', 'org-gnome-calculator', 'freetube']
 
 [org/gnome/desktop/notifications/application/alacritty]
 application-id='Alacritty.desktop'
@@ -1730,6 +1730,9 @@ application-id='firefox-esr.desktop'
 
 [org/gnome/desktop/notifications/application/firefox-firefox]
 application-id='firefox_firefox.desktop'
+
+[org/gnome/desktop/notifications/application/freetube]
+application-id='freetube.desktop'
 
 [org/gnome/desktop/notifications/application/gimp]
 application-id='gimp.desktop'
@@ -1766,6 +1769,9 @@ application-id='org.freedesktop.problems.applet.desktop'
 
 [org/gnome/desktop/notifications/application/org-gnome-boxes]
 application-id='org.gnome.Boxes.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-calculator]
+application-id='org.gnome.Calculator.desktop'
 
 [org/gnome/desktop/notifications/application/org-gnome-evince]
 application-id='org.gnome.Evince.desktop'
@@ -1839,9 +1845,9 @@ view-only=true
 color-shading-type='solid'
 lock-enabled=false
 picture-options='zoom'
-picture-uri='file:///home/ulysses/.local/share/backgrounds/2024-10-19-03-32-30-background'
-primary-color='#000000000000'
-secondary-color='#000000000000'
+picture-uri='file:///usr/share/backgrounds/gnome/blobs-l.svg'
+primary-color='#241f31'
+secondary-color='#000000'
 
 [org/gnome/desktop/search-providers]
 disabled=['org.gnome.Contacts.desktop', 'org.gnome.Calculator.desktop', 'org.gnome.Characters.desktop', 'org.gnome.Software.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.Calendar.desktop', 'org.gnome.clocks.desktop', 'org.mozilla.firefox.desktop', 'org.gnome.Boxes.desktop']
@@ -1887,7 +1893,7 @@ show-sidebar=false
 sidebar-page='thumbnails'
 sidebar-size=132
 sizing-mode='free'
-window-ratio=(2.4573939881910896, 1.0481956315289649)
+window-ratio=(2.2793139490687953, 1.0481757710139086)
 zoom=0.83333333333333304
 
 [org/gnome/evolution-data-server]
@@ -1940,7 +1946,7 @@ default-zoom-level='small'
 default-folder-viewer='list-view'
 migrated-gtk-settings=true
 search-filter-time-type='created'
-search-view='icon-view'
+search-view='list-view'
 
 [org/gnome/nautilus/window-state]
 initial-size=(1409, 754)
@@ -1948,6 +1954,10 @@ initial-size-file-chooser=(890, 550)
 maximized=false
 
 [org/gnome/nm-applet/eap/2030018a-3425-4831-84dc-a90fb1a6ea85]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/363efcc7-cfed-46dc-996c-9663944cb62a]
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
@@ -2007,7 +2017,7 @@ sleep-inactive-ac-type='nothing'
 [org/gnome/shell]
 app-picker-layout=[{'org.gnome.Contacts.desktop': <{'position': <0>}>, 'org.gnome.Snapshot.desktop': <{'position': <1>}>, 'org.gnome.Totem.desktop': <{'position': <2>}>, 'org.gnome.Calculator.desktop': <{'position': <3>}>, 'org.gnome.Weather.desktop': <{'position': <4>}>, 'Utilities': <{'position': <5>}>, 'yelp.desktop': <{'position': <6>}>, 'org.gnome.clocks.desktop': <{'position': <7>}>, 'org.gnome.Maps.desktop': <{'position': <8>}>, 'org.fedoraproject.MediaWriter.desktop': <{'position': <9>}>, 'libreoffice-calc.desktop': <{'position': <10>}>, 'libreoffice-impress.desktop': <{'position': <11>}>, 'simple-scan.desktop': <{'position': <12>}>, 'org.gnome.SystemMonitor.desktop': <{'position': <13>}>, 'libreoffice-writer.desktop': <{'position': <14>}>, 'org.gnome.Rhythmbox3.desktop': <{'position': <15>}>, 'org.gnome.Tour.desktop': <{'position': <16>}>, 'htop.desktop': <{'position': <17>}>, 'org.gnome.Calendar.desktop': <{'position': <18>}>, 'io.github.vectorgraphics.asymptote.desktop': <{'position': <19>}>}, {'org.mozilla.firefox.desktop': <{'position': <0>}>, 'org.gnome.Settings.desktop': <{'position': <1>}>, 'org.gnome.Software.desktop': <{'position': <2>}>, 'org.fontforge.FontForge.desktop': <{'position': <3>}>, 'org.gnome.TextEditor.desktop': <{'position': <4>}>, 'org.inkscape.Inkscape.desktop': <{'position': <5>}>, 'mupdf-gl.desktop': <{'position': <6>}>, 'syncthing-start.desktop': <{'position': <7>}>, 'syncthing-ui.desktop': <{'position': <8>}>, 'org.gnome.Loupe.desktop': <{'position': <9>}>, 'blender.desktop': <{'position': <10>}>, 'gimp.desktop': <{'position': <11>}>, 'nvim.desktop': <{'position': <12>}>, 'nvidia-settings.desktop': <{'position': <13>}>, 'org.qbittorrent.qBittorrent.desktop': <{'position': <14>}>, 'texstudio.desktop': <{'position': <15>}>, 'codium.desktop': <{'position': <16>}>, 'xournal.desktop': <{'position': <17>}>, 'net.lutris.Lutris.desktop': <{'position': <18>}>, 'Alacritty.desktop': <{'position': <19>}>, 'calibre-gui.desktop': <{'position': <20>}>, 'yad-icon-browser.desktop': <{'position': <21>}>, 'protonvpn-app.desktop': <{'position': <22>}>, 'protontricks.desktop': <{'position': <23>}>}, {'steam.desktop': <{'position': <0>}>, 'winetricks.desktop': <{'position': <1>}>}]
 enabled-extensions=['color-picker@tuberry', 'caffeine@patapon.info']
-favorite-apps=['org.mozilla.firefox.desktop', 'org.gnome.Nautilus.desktop', 'Alacritty.desktop']
+favorite-apps=@as []
 last-selected-power-profile='performance'
 remember-mount-password=true
 welcome-dialog-last-shown-version='43.9'
@@ -2036,11 +2046,12 @@ switch-to-application-4=@as []
 locations=@av []
 
 [org/gnome/software]
-check-timestamp=int64 1749973214
+check-timestamp=int64 1751609645
 first-run=false
 flatpak-purge-timestamp=int64 1749980344
-security-timestamp=int64 1741596998081961
-update-notification-timestamp=int64 1749973239
+online-updates-timestamp=int64 1751439132
+security-timestamp=int64 0
+update-notification-timestamp=int64 1751528128
 upgrade-notification-timestamp=int64 1748780698
 
 [org/gnome/system/location]
@@ -2058,7 +2069,7 @@ new-tab='<Primary>t'
 audible-bell=false
 background-color='rgb(23,20,33)'
 bold-is-bright=false
-font='Monospace 12'
+font='AdwaitaMono Nerd Font 12'
 foreground-color='rgb(208,207,204)'
 palette=['rgb(23,20,33)', 'rgb(192,28,40)', 'rgb(38,162,105)', 'rgb(162,115,76)', 'rgb(18,72,139)', 'rgb(163,71,186)', 'rgb(42,161,179)', 'rgb(208,207,204)', 'rgb(94,92,100)', 'rgb(246,97,81)', 'rgb(51,209,122)', 'rgb(233,173,12)', 'rgb(42,123,222)', 'rgb(192,97,203)', 'rgb(51,199,222)', 'rgb(255,255,255)']
 use-system-font=false
@@ -2113,9 +2124,9 @@ show-hidden=true
 show-size-column=true
 show-type-column=true
 sidebar-width=169
-sort-column='modified'
+sort-column='name'
 sort-directories-first=false
-sort-order='descending'
+sort-order='ascending'
 type-format='category'
 view-type='list'
 window-size=(1201, 810)
@@ -2131,11 +2142,11 @@ show-hidden=false
 show-size-column=true
 show-type-column=true
 sidebar-width=209
-sort-column='modified'
+sort-column='name'
 sort-directories-first=false
 sort-order='descending'
 type-format='category'
-window-position=(0, 135)
+window-position=(136, 84)
 window-size=(1649, 898)
 
 [system/proxy]
