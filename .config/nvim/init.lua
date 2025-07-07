@@ -113,17 +113,6 @@ require("lazy").setup({
 	    end
 	},
 	
-	-- Terminal
-	{
-	    'akinsho/toggleterm.nvim', version = "*", 
-	    config = function()
-		require("toggleterm").setup {
-		    direction = "horizontal",
-		    size = 15
-		}	
-	    end
-	},
-
 	-- Mason
 	{
 	    "mason-org/mason.nvim",
@@ -197,18 +186,3 @@ require("lazy").setup({
 	{ "JuliaEditorSupport/julia-vim" },
     }
 })
-
--- Keymap for toggleterm
-vim.keymap.set({'n', 't'}, '<leader>t', function()
-    local term = require("toggleterm.terminal").get(1)
-
-    if term and term:is_open() then
-      -- Terminal is open, so close it and go to normal mode
-      term:toggle()
-      vim.cmd("stopinsert") -- just in case
-    else
-      -- Terminal is closed, so open it and go to insert mode
-      require("toggleterm").toggle(1)
-      vim.cmd("startinsert")
-    end
-end)
