@@ -176,10 +176,14 @@ require("lazy").setup({
 	
 	-- Edit files and directories like a buffer
 	{
-	  'stevearc/oil.nvim',
-	  opts = {},
-	  -- Lazy loading is not recommended because it is very tricky to make it work correctly in all situations.
-	  lazy = false,
+	    'stevearc/oil.nvim',
+	    opts = {
+		view_options = {
+		    show_hidden = true
+		}
+	    },
+	    -- Lazy loading is not recommended because it is very tricky to make it work correctly in all situations.
+	    lazy = false,
 	},
 
 	-- Adds support for LaTeX symbols for Julia
