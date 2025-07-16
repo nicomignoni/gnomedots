@@ -102,6 +102,7 @@ require("lazy").setup({
 		require("mini.starter").setup()
 		require("mini.icons").setup()
 		require("mini.tabline").setup()
+		require("mini.diff").setup()
 		require("mini.statusline").setup { use_icons = vim.g.have_nerd_font }
 
 		local gen_loader = require("mini.snippets").gen_loader
@@ -124,7 +125,7 @@ require("lazy").setup({
 	    },
 	    config = function()
 		require('mason-lspconfig').setup({
-		    ensure_installed = { 'pyright', 'lua_ls', 'julia-lsp' },
+		    ensure_installed = { 'pyright', 'lua_ls', },
 		})
 	    end
     	},
