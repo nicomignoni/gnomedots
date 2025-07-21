@@ -51,6 +51,11 @@ vim.keymap.set("n", "yy", '"+yy')
 vim.keymap.set("n", "<Tab>", ":bnext<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "<S-Tab>", ":bprev<CR>", { noremap = true, silent = true })
 
+-- Pick a file from cwd
+vim.keymap.set('n', '<leader>f', function()
+  require('mini.pick').builtin.files({ directory = vim.fn.getcwd() })
+end, { noremap = true, silent = true }) 
+
 -- Edit the current directory 
 vim.keymap.set("n", "<leader>sf", ":e .<CR>", { noremap = true, silent = true })
 
@@ -90,6 +95,8 @@ require("lazy").setup({
 	-- Treesitter
 	{
 	    "nvim-treesitter/nvim-treesitter",
+	    ensure_installed = { 'bash', 'c', 'diff', 'html', 'lua', 'luadoc', 'markdown', 'markdown_inline', 'query', 'vim', 'vimdoc' },
+	    autoinstall = true,
 	    build = function()
 		require("nvim-treesitter.install").update({ with_sync = true })()
 	    end
@@ -102,7 +109,6 @@ require("lazy").setup({
 		require("mini.starter").setup()
 		require("mini.icons").setup()
 		require("mini.tabline").setup()
-		require("mini.diff").setup()
 		require("mini.statusline").setup { use_icons = vim.g.have_nerd_font }
 
 		local gen_loader = require("mini.snippets").gen_loader
@@ -113,7 +119,21 @@ require("lazy").setup({
 		})
 	    end
 	},
-	
+
+	-- Adds git related signs to the gutter, as well as utilities for managing changes
+	{ 
+	    'lewis6991/gitsigns.nvim',
+	    opts = {
+		signs = {
+		    add = { text = '+' },
+		    change = { text = '~' },
+		    delete = { text = '_' },
+		    topdelete = { text = '‾' },
+		    changedelete = { text = '~' },
+		},
+	    },
+	},
+
 	-- Main LSP Configuration
 	{
 	    'neovim/nvim-lspconfig',
