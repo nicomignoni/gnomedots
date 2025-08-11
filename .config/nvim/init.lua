@@ -43,6 +43,9 @@ vim.o.confirm = true
 -- Reduce tabs to 4 space
 vim.opt.shiftwidth = 4
 
+-- Do not copy deleted characters
+vim.keymap.set('n', 'x', '"_x', { noremap = true, silent = true })
+
 -- Yank to clipboard
 vim.keymap.set({ "n", "v" }, "y", '"+y')
 vim.keymap.set("n", "yy", '"+yy')
@@ -53,7 +56,9 @@ vim.keymap.set("n", "<S-Tab>", ":bprev<CR>", { noremap = true, silent = true })
 
 -- Pick a file from cwd
 vim.keymap.set('n', '<leader>f', function()
-  require('mini.pick').builtin.files({ directory = vim.fn.getcwd() })
+  require('mini.pick').builtin.files({ 
+      directory = vim.fn.getcwd(), 
+  })
 end, { noremap = true, silent = true }) 
 
 -- Edit the current directory 
@@ -108,6 +113,7 @@ require("lazy").setup({
 	    config = function()
 		require("mini.starter").setup()
 		require("mini.icons").setup()
+		require("mini.pick").setup()
 		require("mini.tabline").setup()
 		require("mini.statusline").setup { use_icons = vim.g.have_nerd_font }
 
