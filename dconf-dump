@@ -1647,7 +1647,7 @@ window-position=(50, 82)
 word-size=64
 
 [org/gnome/control-center]
-last-panel='network'
+last-panel='universal-access'
 window-state=(858, 518, true)
 
 [org/gnome/desktop/app-folders]
@@ -1711,7 +1711,7 @@ icon-theme='Adwaita'
 toolkit-accessibility=false
 
 [org/gnome/desktop/notifications]
-application-children=['firefox-esr', 'org-gnome-nautilus', 'org-pwmt-zathura', 'org-gnome-software', 'firefox-firefox', 'libreoffice-calc', 'org-gnome-terminal', 'gnome-printers-panel', 'slack', 'microsoft-edge', 'org-inkscape-inkscape', 'org-gnome-evince', 'libreoffice-writer', 'com-github-wwmm-easyeffects', 'gnucash', 'org-gnome-settings', 'org-qbittorrent-qbittorrent', 'texstudio', 'net-lutris-lutris', 'google-chrome', 'org-gnome-tweaks', 'calibre-gui', 'libreoffice-impress', 'org-gnome-texteditor', 'org-gnome-totem', 'thunderbird', 'org-freedesktop-problems-applet', 'steam', 'codium', 'alacritty', 'org-mozilla-firefox', 'gimp', 'org-gnome-loupe', 'xournal', 'org-gnome-boxes', 'org-gnome-calculator', 'freetube']
+application-children=['firefox-esr', 'org-gnome-nautilus', 'org-pwmt-zathura', 'org-gnome-software', 'firefox-firefox', 'libreoffice-calc', 'org-gnome-terminal', 'gnome-printers-panel', 'slack', 'microsoft-edge', 'org-inkscape-inkscape', 'org-gnome-evince', 'libreoffice-writer', 'com-github-wwmm-easyeffects', 'gnucash', 'org-gnome-settings', 'org-qbittorrent-qbittorrent', 'texstudio', 'net-lutris-lutris', 'google-chrome', 'org-gnome-tweaks', 'calibre-gui', 'libreoffice-impress', 'org-gnome-texteditor', 'org-gnome-totem', 'thunderbird', 'org-freedesktop-problems-applet', 'steam', 'codium', 'alacritty', 'org-mozilla-firefox', 'gimp', 'org-gnome-loupe', 'xournal', 'org-gnome-boxes', 'org-gnome-calculator', 'freetube', 'vibe', 'org-gnome-eog']
 
 [org/gnome/desktop/notifications/application/alacritty]
 application-id='Alacritty.desktop'
@@ -1773,6 +1773,9 @@ application-id='org.gnome.Boxes.desktop'
 [org/gnome/desktop/notifications/application/org-gnome-calculator]
 application-id='org.gnome.Calculator.desktop'
 
+[org/gnome/desktop/notifications/application/org-gnome-eog]
+application-id='org.gnome.eog.desktop'
+
 [org/gnome/desktop/notifications/application/org-gnome-evince]
 application-id='org.gnome.Evince.desktop'
 
@@ -1824,11 +1827,14 @@ application-id='texstudio.desktop'
 [org/gnome/desktop/notifications/application/thunderbird]
 application-id='thunderbird.desktop'
 
+[org/gnome/desktop/notifications/application/vibe]
+application-id='vibe.desktop'
+
 [org/gnome/desktop/notifications/application/xournal]
 application-id='xournal.desktop'
 
 [org/gnome/desktop/peripherals/keyboard]
-numlock-state=false
+numlock-state=true
 
 [org/gnome/desktop/privacy]
 old-files-age=uint32 30
@@ -1893,7 +1899,7 @@ show-sidebar=false
 sidebar-page='thumbnails'
 sidebar-size=132
 sizing-mode='free'
-window-ratio=(2.2793139490687953, 1.0481757710139086)
+window-ratio=(2.2786596119929454, 1.3540051679586564)
 zoom=0.83333333333333304
 
 [org/gnome/evolution-data-server]
@@ -1949,7 +1955,7 @@ search-filter-time-type='created'
 search-view='list-view'
 
 [org/gnome/nautilus/window-state]
-initial-size=(1409, 754)
+initial-size=(1409, 726)
 initial-size-file-chooser=(890, 550)
 maximized=false
 
@@ -2023,12 +2029,11 @@ remember-mount-password=true
 welcome-dialog-last-shown-version='43.9'
 
 [org/gnome/shell/extensions/caffeine]
-indicator-position-max=3
-user-enabled=false
+indicator-position-max=1
 
 [org/gnome/shell/extensions/color-picker]
 color-history=[uint32 9961774, 9896491, 9896491, 9961774, 2565413, 7742850, 9896491, 6361450]
-colors-history='#8c8c8c|#0d1117|#0d1117|#90202e|#b3b3b3|#4c4c4c|#33258a|#352f88'
+colors-history='#9364b9|#d43530|#2fa03a|#fd832c|#2c73b0|#444444|#242424|#496fa1'
 
 [org/gnome/shell/extensions/just-perfection]
 animation=0
@@ -2046,12 +2051,13 @@ switch-to-application-4=@as []
 locations=@av []
 
 [org/gnome/software]
-check-timestamp=int64 1751609645
+check-timestamp=int64 1754899201
 first-run=false
 flatpak-purge-timestamp=int64 1749980344
-online-updates-timestamp=int64 1751439132
+install-timestamp=int64 1753562033
+online-updates-timestamp=int64 1754899218
 security-timestamp=int64 0
-update-notification-timestamp=int64 1751528128
+update-notification-timestamp=int64 1753571337
 upgrade-notification-timestamp=int64 1748780698
 
 [org/gnome/system/location]
@@ -2064,6 +2070,8 @@ theme-variant='dark'
 [org/gnome/terminal/legacy/keybindings]
 close-tab='<Primary>w'
 new-tab='<Primary>t'
+next-tab='<Primary><Alt>Right'
+prev-tab='<Primary><Alt>Left'
 
 [org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
 audible-bell=false
@@ -2142,7 +2150,7 @@ show-hidden=false
 show-size-column=true
 show-type-column=true
 sidebar-width=209
-sort-column='name'
+sort-column='modified'
 sort-directories-first=false
 sort-order='descending'
 type-format='category'
