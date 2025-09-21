@@ -1,0 +1,41 @@
+(defcfg
+    process-unmapped-keys yes
+) 
+
+(defvar
+    tap-time 200
+    hold-time 200
+)
+
+(defsrc
+    q
+    a s j k l ;
+    spc
+)
+
+(defalias
+    a-base (tap-hold $tap-time $hold-time a lsft)
+    a-commons (tap-hold $tap-time $hold-time tab (layer-toggle arrows))
+    s-base (tap-hold $tap-time $hold-time s lctl)
+    l-base (tap-hold $tap-time $hold-time l rctl)
+    ;-base (tap-hold $tap-time $hold-time ; rsft)
+    spc-base (tap-hold-press $tap-time $hold-time spc (layer-toggle commons))
+)
+
+(deflayer base
+    q
+    @a-base @s-base j k @l-base @;-base
+    @spc-base
+)
+
+(deflayer commons
+    esc
+    @a-commons - ret bspc del lmet
+    -
+)
+
+(deflayer arrows
+    - 
+    - - left up down right
+    - 
+)
