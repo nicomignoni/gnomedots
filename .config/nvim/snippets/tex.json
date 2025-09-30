@@ -43,5 +43,10 @@
         "prefix": "mt",
         "body": "\\mathtt{$1}$0",
         "description": "math typewriter font"
+    },
+    "itemize": {
+	"prefix": "itemize",
+	"body": "\\begin{itemize}\n\t\\item $1\n\\end{itemize}",
+	"description": "the itemize block"
     }
 }
