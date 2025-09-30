@@ -48,5 +48,10 @@
 	"prefix": "itemize",
 	"body": "\\begin{itemize}\n\t\\item $1\n\\end{itemize}",
 	"description": "the itemize block"
+    },
+    "enumerate": {
+	"prefix": "enumerate",
+	"body": "\\begin{enumerate}\n\t\\item $1\n\\end{enumerate}",
+	"description": "the enumerate block"
     }
 }
