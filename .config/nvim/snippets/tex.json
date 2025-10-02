@@ -58,5 +58,15 @@
 	"prefix": "frame",
 	"body": "\\begin{frame}{$1}\n\t$0\n\\end{frame}",
 	"description": "the baeamer's frame"
+    },
+    "equation": {
+	"prefix": "eq",
+	"body": "\\begin{equation}\n\t$1\n\\end{equation}",
+	"description": "the equation block"
+    },
+    "figure": {
+	"prefix": "figure",
+	"body": "\\begin{figure}\n\t\\centering\n\t\\includegraphics[width=\\textwidth]{$1}\n\\end{figure}",
+	"description": "the figure block"
     }
 }
