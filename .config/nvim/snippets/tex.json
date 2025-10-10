@@ -46,27 +46,37 @@
     },
     "itemize": {
 	"prefix": "itemize",
-	"body": "\\begin{itemize}\n\t\\item $1\n\\end{itemize}",
+	"body": "\\begin{itemize}\n\\item $1\n\\end{itemize}",
 	"description": "the itemize block"
     },
     "enumerate": {
 	"prefix": "enumerate",
-	"body": "\\begin{enumerate}\n\t\\item $1\n\\end{enumerate}",
+	"body": "\\begin{enumerate}\n\\item $1\n\\end{enumerate}",
 	"description": "the enumerate block"
     },
     "frame": {
 	"prefix": "frame",
-	"body": "\\begin{frame}{$1}\n\t$0\n\\end{frame}",
+	"body": "\\begin{frame}{$1}\n$0\n\\end{frame}",
 	"description": "the baeamer's frame"
     },
     "equation": {
 	"prefix": "eq",
-	"body": "\\begin{equation}\n\t$1\n\\end{equation}",
+	"body": "\\begin{equation}\n$1\n\\end{equation}",
 	"description": "the equation block"
     },
     "figure": {
 	"prefix": "figure",
-	"body": "\\begin{figure}\n\t\\centering\n\t\\includegraphics[width=\\textwidth]{$1}\n\\end{figure}",
+	"body": "\\begin{figure}\n\\centering\n\\includegraphics[width=\\textwidth]{$1}\n\\end{figure}",
 	"description": "the figure block"
-    }
+    },
+    "columns": {
+	"prefix": "columns",
+	"body": "\\begin{columns}\n\\begin{column}{0.5\\textwidth}\n\t$1\n\\end{column}\n\\end{columns}",
+	"description": "the columns block"
+    },
+    "column": {
+	"prefix": "column",
+	"body": "\\begin{column}{0.5\\textwidth}\n\t$1\n\\end{column}",
+	"description": "the column block"
+    } 
 }

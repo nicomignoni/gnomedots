@@ -20,6 +20,9 @@ vim.o.undofile = true
 -- Keep signcolumn on by default
 vim.o.signcolumn = 'yes'
 
+-- Copy to system clipboard
+vim.opt.clipboard = "unnamedplus"
+
 -- Sets how neovim will display certain whitespace characters in the editor.
 vim.o.list = true
 vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
