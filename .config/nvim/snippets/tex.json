@@ -6,12 +6,12 @@
     },
     "nonnegative reals": {
 	"prefix": "RR",
-	"body": "\\mathbb{R}",
+	"body": "\\mathbb{R}_{\geq 0}",
 	"description": "the set of nonnegative real numbers"
     },
     "positive reals": {
 	"prefix": "RRR",
-	"body": "\\mathbb{R}",
+	"body": "\\mathbb{R}_{> 0}",
 	"description": "the set of positive real numbers"
     },
     "texttt": {
