@@ -1,4 +1,19 @@
 {
+    "reals": {
+	"prefix": "R",
+	"body": "\\mathbb{R}",
+	"description": "the set of real numbers"
+    },
+    "nonnegative reals": {
+	"prefix": "RR",
+	"body": "\\mathbb{R}",
+	"description": "the set of nonnegative real numbers"
+    },
+    "positive reals": {
+	"prefix": "RRR",
+	"body": "\\mathbb{R}",
+	"description": "the set of positive real numbers"
+    },
     "texttt": {
         "prefix": "tt",
         "body": "\\texttt{$1}$0",
