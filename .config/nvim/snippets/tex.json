@@ -6,7 +6,7 @@
     },
     "nonnegative reals": {
 	"prefix": "RR",
-	"body": "\\mathbb{R}_{\geq 0}",
+	"body": "\\mathbb{R}_{\\geq 0}",
 	"description": "the set of nonnegative real numbers"
     },
     "positive reals": {
@@ -59,6 +59,11 @@
         "body": "\\mathtt{$1}$0",
         "description": "math typewriter font"
     },
+    "boldsymbol": {
+	"prefix": "bs",
+	"body": "\\boldsymbol{$1}$0",
+	"description": "bold for symbols"
+    },
     "itemize": {
 	"prefix": "itemize",
 	"body": "\\begin{itemize}\n\\item $1\n\\end{itemize}",
@@ -79,6 +84,11 @@
 	"body": "\\begin{equation}\n$1\n\\end{equation}",
 	"description": "the equation block"
     },
+    "subequations": {
+	"prefix": "seq",
+	"body": "\\begin{subequations}\n\\begin{align}\n$1\n\\end{align}\n\\end{subequations}",
+	"description": "the subequations block"
+    },
     "figure": {
 	"prefix": "figure",
 	"body": "\\begin{figure}\n\\centering\n\\includegraphics[width=\\textwidth]{$1}\n\\end{figure}",
@@ -93,5 +103,15 @@
 	"prefix": "column",
 	"body": "\\begin{column}{0.5\\textwidth}\n\t$1\n\\end{column}",
 	"description": "the column block"
-    } 
+    },
+    "eqref": {
+	"prefix": "er",
+	"body": "\\eqref{eq:$1}",
+	"description": "the eqref block"
+    },
+    "ref": {
+	"prefix": "r",
+	"body": "\\ref{$1}",
+	"description": "the ref block"
+    }
 }
