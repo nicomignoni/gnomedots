@@ -53,6 +53,9 @@ vim.keymap.set('n', 'x', '"_x', { noremap = true, silent = true })
 vim.keymap.set({ "n", "v" }, "y", '"+y')
 vim.keymap.set("n", "yy", '"+yy')
 
+-- Draw a vertical line for code intentation
+vim.opt.colorcolumn = "92"
+
 -- Cycle through buffers
 vim.keymap.set("n", "<Tab>", ":bnext<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "<S-Tab>", ":bprev<CR>", { noremap = true, silent = true })
