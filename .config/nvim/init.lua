@@ -27,6 +27,15 @@ vim.opt.clipboard = "unnamedplus"
 vim.o.list = true
 vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
 
+-- Highlight on yank (from nvim.kickstart)
+vim.api.nvim_create_autocmd('TextYankPost', {
+  desc = 'Highlight when yanking (copying) text',
+  group = vim.api.nvim_create_augroup('kickstart-highlight-yank', { clear = true }),
+  callback = function()
+    vim.hl.on_yank()
+  end,
+})
+
 -- Show which line your cursor is on
 vim.o.cursorline = true
 
