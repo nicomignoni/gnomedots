@@ -15,49 +15,49 @@
 	"description": "the set of positive real numbers"
     },
     "texttt": {
-        "prefix": "tt",
-        "body": "\\texttt{$1}$0",
-        "description": "typewriter font"
+	"prefix": "tt",
+	"body": "\\texttt{$1}$0",
+	"description": "typewriter font"
     },
     "textit": {
-        "prefix": "it",
-        "body": "\\textit{$1}$0",
-        "description": "italic font"
+	"prefix": "it",
+	"body": "\\textit{$1}$0",
+	"description": "italic font"
     },
     "textbf": {
-        "prefix": "bt",
-        "body": "\\textbf{$1}$0",
-        "description": "bold font"
+	"prefix": "bt",
+	"body": "\\textbf{$1}$0",
+	"description": "bold font"
     },
     "mathrm": {
-        "prefix": "mr",
-        "body": "\\mathrm{$1}$0",
-        "description": "math roman font"
+	"prefix": "mr",
+	"body": "\\mathrm{$1}$0",
+	"description": "math roman font"
     },
     "mathbf": {
-        "prefix": "mf",
-        "body": "\\mathbf{$1}$0",
-        "description": "math bold font"
+	"prefix": "mf",
+	"body": "\\mathbf{$1}$0",
+	"description": "math bold font"
     },
     "mathbb": {
-        "prefix": "mb",
-        "body": "\\mathbb{$1}$0",
-        "description": "math blackboard bold font"
+	"prefix": "mb",
+	"body": "\\mathbb{$1}$0",
+	"description": "math blackboard bold font"
     },
     "mathcal": {
-        "prefix": "mc",
-        "body": "\\mathcal{$1}$0",
-        "description": "math caligraphic font"
+	"prefix": "mc",
+	"body": "\\mathcal{$1}$0",
+	"description": "math caligraphic font"
     },
     "mathit": {
-        "prefix": "mi",
-        "body": "\\mathit{$1}$0",
-        "description": "math italic font"
+	"prefix": "mi",
+	"body": "\\mathit{$1}$0",
+	"description": "math italic font"
     },
     "mathtt": {
-        "prefix": "mt",
-        "body": "\\mathtt{$1}$0",
-        "description": "math typewriter font"
+	"prefix": "mt",
+	"body": "\\mathtt{$1}$0",
+	"description": "math typewriter font"
     },
     "boldsymbol": {
 	"prefix": "bs",
