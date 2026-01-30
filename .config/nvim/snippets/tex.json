@@ -113,5 +113,10 @@
 	"prefix": "r",
 	"body": "\\ref{$1}",
 	"description": "the ref block"
+    },
+    "label": {
+	"prefix": "el",
+	"body": "\\label{eq:$1}",
+	"description": "the label block for equations"
     }
 }
