@@ -14,6 +14,16 @@
 	"body": "\\mathbb{R}_{> 0}",
 	"description": "the set of positive real numbers"
     },
+    "naturals": {
+	"prefix": "N",
+	"body": "\\mathbb{N}",
+	"description": "the set of natural numbers"
+    },
+    "binaries": {
+	"prefix": "B",
+	"body": "\\mathbb{B}",
+	"description": "the set of binary (0,1) numbers"
+    },
     "texttt": {
 	"prefix": "tt",
 	"body": "\\texttt{$1}$0",
